@@ -12,7 +12,7 @@ require_once __DIR__ . '/includes/header.php';
 
 <section class="section">
     <div class="container container-narrow">
-        <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 2rem; box-shadow: var(--shadow-card); line-height: 1.65; color: var(--text-body); font-size: 0.875rem;">
+        <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 2rem; box-shadow: var(--shadow-card); line-height: 1.7; color: var(--text-body); font-size: 0.9rem;">
             <h3 style="color: var(--text-main); font-size: 1.05rem; margin-bottom: 0.5rem;">1. Informational &amp; Framework Purpose</h3>
             <p style="margin-bottom: 1.25rem;">
                 The materials and constitutional models presented by The Peace-Led Climate-Friendly Sustainable Development Forum (PCSDF), including the PFICF-RSSDF architecture, are provided for international research, institutional dialogue, policy innovation, and multilateral collaboration.

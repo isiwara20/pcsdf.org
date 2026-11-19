@@ -16,7 +16,7 @@ $partners = getEntityPartners();
     <header style="background: #0B1323; color: #FFF; padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
         <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
             <div style="display: flex; align-items: center; gap: 0.85rem;">
-                <img src="<?= BASE_URL ?>/assets/images/pcsdf-logo.jpg" alt="Logo" style="height: 38px; border-radius: 4px; background: #FFF; padding: 2px;">
+                <img src="<?= BASE_URL ?>/assets/images/pcsdf-logo.jpg" alt="Logo" style="height: 48px; width: auto; border-radius: 6px; background: #FFF; padding: 2px 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
                 <div>
                     <span style="font-weight: 700; color: #FFF; font-size: 1.1rem;">PCSDF Admin Portal</span>
                     <span style="display: block; font-size: 0.75rem; color: #94A3B8;">22 Entity Partners &amp; Focal Points</span>
@@ -35,7 +35,7 @@ $partners = getEntityPartners();
     </header>
 
     <div class="container" style="padding-top: 2.5rem;">
-        <div style="background: #FFFFFF; border: 1px solid var(--border-light); border-radius: var(--radius-lg); padding: 2rem; box-shadow: var(--shadow-sm);">
+        <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 2rem; box-shadow: var(--shadow-sm);">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
                 <div>
                     <h2 style="font-family: var(--font-serif); font-size: 1.6rem; color: var(--secondary-dark);">

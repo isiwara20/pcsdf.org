@@ -18,6 +18,18 @@ if (!isset($page_title)) {
     <title><?= htmlspecialchars($page_title) ?></title>
     <meta name="description" content="<?= htmlspecialchars(SITE_SLOGAN) ?>">
 
+    <!-- Anti-flicker Dual-Theme Initializer -->
+    <script>
+        (function() {
+            try {
+                const savedTheme = localStorage.getItem('pcsdf-theme');
+                const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+                const theme = savedTheme ? savedTheme : (prefersDark ? 'dark' : 'light');
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch(e) {}
+        })();
+    </script>
+
     <!-- Open Graph Meta -->
     <meta property="og:title" content="<?= htmlspecialchars($page_title) ?>">
     <meta property="og:description" content="<?= htmlspecialchars(SITE_SLOGAN) ?>">
@@ -36,6 +48,9 @@ if (!isset($page_title)) {
     <link rel="shortcut icon" href="<?= BASE_URL ?>/assets/images/pcsdf-logo.jpg" type="image/jpeg">
 </head>
 <body>
+
+<!-- Top Scroll Progress Indicator -->
+<div class="scroll-progress-bar" id="scrollProgressBar" aria-hidden="true"></div>
 
 <!-- Floating Capsule Header -->
 <div class="header-wrapper">
@@ -57,21 +72,38 @@ if (!isset($page_title)) {
                 <a href="<?= BASE_URL ?>/index.php" class="nav-link <?= ($current_page == 'index.php') ? 'active' : '' ?>">Home</a>
                 <a href="<?= BASE_URL ?>/about.php" class="nav-link <?= ($current_page == 'about.php') ? 'active' : '' ?>">About &amp; Patrons</a>
                 <a href="<?= BASE_URL ?>/framework.php" class="nav-link <?= ($current_page == 'framework.php') ? 'active' : '' ?>">PFICF-RSSDF</a>
-                <a href="<?= BASE_URL ?>/network.php" class="nav-link <?= ($current_page == 'network.php') ? 'active' : '' ?>">22 Entity Partners</a>
+                <a href="<?= BASE_URL ?>/network.php" class="nav-link <?= ($current_page == 'network.php') ? 'active' : '' ?>">22 Partners</a>
                 <a href="<?= BASE_URL ?>/peace-tracker.php" class="nav-link <?= ($current_page == 'peace-tracker.php') ? 'active' : '' ?>">Peace Tracker</a>
                 <a href="<?= BASE_URL ?>/poems.php" class="nav-link <?= ($current_page == 'poems.php') ? 'active' : '' ?>">Poems</a>
                 <a href="<?= BASE_URL ?>/contact.php" class="nav-link <?= ($current_page == 'contact.php') ? 'active' : '' ?>">Contact</a>
-                
-                <a href="<?= BASE_URL ?>/admin/index.php" class="btn btn-outline btn-sm" title="Database Portal">
-                    DB / Admin
-                </a>
+
+                <!-- 2 Distinct Theme Buttons on Larger Screens (Light & Dark) -->
+                <div class="theme-segmented-switch" role="group" aria-label="Theme Mode Selection">
+                    <button type="button" class="theme-segment-btn" data-theme-val="light" title="Switch to Light Theme">
+                        <span>&#9728; Light</span>
+                    </button>
+                    <button type="button" class="theme-segment-btn" data-theme-val="dark" title="Switch to Dark Theme">
+                        <span>&#9790; Dark</span>
+                    </button>
+                </div>
+
                 <a href="<?= BASE_URL ?>/contact.php" class="btn btn-primary btn-sm">
                     Partner &rarr;
                 </a>
             </nav>
 
-            <!-- Mobile Hamburger Toggle -->
-            <button class="mobile-menu-btn" id="mobileMenuToggle" aria-label="Toggle navigation menu">&#9776;</button>
+            <!-- Mobile Controls -->
+            <div class="mobile-controls">
+                <div class="theme-segmented-switch" style="padding: 2px;">
+                    <button type="button" class="theme-segment-btn" data-theme-val="light" style="padding: 0.25rem 0.5rem;" title="Light">
+                        <span>&#9728;</span>
+                    </button>
+                    <button type="button" class="theme-segment-btn" data-theme-val="dark" style="padding: 0.25rem 0.5rem;" title="Dark">
+                        <span>&#9790;</span>
+                    </button>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuToggle" aria-label="Toggle navigation menu">&#9776;</button>
+            </div>
         </div>
     </header>
 
@@ -84,7 +116,19 @@ if (!isset($page_title)) {
         <a href="<?= BASE_URL ?>/peace-tracker.php" class="nav-link <?= ($current_page == 'peace-tracker.php') ? 'active' : '' ?>">Peace &amp; Conflict Tracker</a>
         <a href="<?= BASE_URL ?>/poems.php" class="nav-link <?= ($current_page == 'poems.php') ? 'active' : '' ?>">Poems &amp; Reflections</a>
         <a href="<?= BASE_URL ?>/contact.php" class="nav-link <?= ($current_page == 'contact.php') ? 'active' : '' ?>">Contact Us</a>
-        <a href="<?= BASE_URL ?>/admin/index.php" class="nav-link">Database &amp; Admin Hub</a>
+        
+        <div class="mobile-theme-row">
+            <span style="font-size: 0.8rem; font-weight: 600; color: var(--text-muted);">Theme Mode:</span>
+            <div class="theme-segmented-switch">
+                <button type="button" class="theme-segment-btn" data-theme-val="light">
+                    <span>&#9728; Light</span>
+                </button>
+                <button type="button" class="theme-segment-btn" data-theme-val="dark">
+                    <span>&#9790; Dark</span>
+                </button>
+            </div>
+        </div>
+
         <div style="padding-top: 0.5rem;">
             <a href="<?= BASE_URL ?>/contact.php" class="btn btn-primary" style="width: 100%;">Start a Project / Partner</a>
         </div>

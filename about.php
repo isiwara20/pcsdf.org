@@ -27,29 +27,29 @@ $patrons = getPatrons();
     <div class="container">
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
             <!-- Vision -->
-            <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-top: 3px solid var(--primary); border-radius: var(--radius-md); padding: 1.85rem; box-shadow: var(--shadow-card);">
+            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-top: 3px solid var(--primary); border-radius: var(--radius-md); padding: 1.85rem; box-shadow: var(--shadow-card);">
                 <span class="badge badge-primary" style="margin-bottom: 0.85rem;">Our Vision</span>
                 <h2 style="font-size: 1.35rem; color: var(--text-main); margin-bottom: 0.75rem;">
                     Regenerative Flourishing Across All Systems &amp; Commons
                 </h2>
-                <p style="color: var(--text-body); font-size: 0.875rem; line-height: 1.65; margin-bottom: 0.75rem;">
+                <p style="color: var(--text-body); font-size: 0.9rem; line-height: 1.68; margin-bottom: 0.75rem;">
                     Peace-led stewardship that fosters the flourishing and regeneration of interconnected systems—human and non-human—across societies, ecosystems, planetary boundaries, the shared global commons, and outer space as part of our broader cosmic commons.
                 </p>
-                <p style="color: var(--text-muted); font-size: 0.825rem; line-height: 1.55;">
+                <p style="color: var(--text-muted); font-size: 0.85rem; line-height: 1.6;">
                     Guided by peace, ethical stewardship, faith traditions, Indigenous wisdom, scientific knowledge, and respect for human dignity.
                 </p>
             </div>
 
             <!-- Mission -->
-            <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-top: 3px solid var(--blue); border-radius: var(--radius-md); padding: 1.85rem; box-shadow: var(--shadow-card);">
+            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-top: 3px solid var(--blue); border-radius: var(--radius-md); padding: 1.85rem; box-shadow: var(--shadow-card);">
                 <span class="badge badge-gold" style="margin-bottom: 0.85rem;">Our Mission</span>
                 <h2 style="font-size: 1.35rem; color: var(--text-main); margin-bottom: 0.75rem;">
                     Advancing Interconnected Systemic Governance
                 </h2>
-                <p style="color: var(--text-body); font-size: 0.875rem; line-height: 1.65; margin-bottom: 0.75rem;">
+                <p style="color: var(--text-body); font-size: 0.9rem; line-height: 1.68; margin-bottom: 0.75rem;">
                     Advancing peace-led, faith- and Indigenous-inspired, climate-friendly, and regenerative approaches to sustainability and governance in response to the interconnected challenges of the global polycrisis.
                 </p>
-                <p style="color: var(--text-muted); font-size: 0.825rem; line-height: 1.55;">
+                <p style="color: var(--text-muted); font-size: 0.85rem; line-height: 1.6;">
                     Through dialogue, partnerships, policy innovation, and financial innovation, PCSDF strengthens resilience across environmental, social, economic, technological, cultural, and digital systems.
                 </p>
             </div>
@@ -68,7 +68,7 @@ $patrons = getPatrons();
 <!-- Jean Ayoub Spotlight Section -->
 <section class="section section-alt" id="ayoub">
     <div class="container">
-        <div class="spotlight-card" style="margin: 0; background: #FFFFFF;">
+        <div class="spotlight-card" style="margin: 0;">
             <div style="text-align: center;">
                 <div class="team-avatar-placeholder" style="width: 80px; height: 80px; margin: 0 auto 1rem auto; font-size: 1.85rem;">
                     JA
@@ -88,10 +88,10 @@ $patrons = getPatrons();
                 <h2 style="font-size: 1.35rem; color: var(--text-main); margin-bottom: 0.75rem;">
                     Jean Ayoub — Professional Profile &amp; Foundational Role
                 </h2>
-                <p style="color: var(--text-body); font-size: 0.875rem; line-height: 1.65; margin-bottom: 0.75rem;">
+                <p style="color: var(--text-body); font-size: 0.92rem; line-height: 1.68; margin-bottom: 0.75rem;">
                     Jean’s elevation recognises his foundational contribution to PCSDF and his distinguished international experience, including his <strong>17 years as Secretary-General and CEO of International Social Service (ISS)</strong>, whose global network extended across more than 120 countries.
                 </p>
-                <p style="color: var(--text-muted); font-size: 0.825rem; line-height: 1.55;">
+                <p style="color: var(--text-body); font-size: 0.88rem; line-height: 1.65;">
                     As Patron and Senior Advisor to PCSDF, Jean brings institutional wisdom to our governance mechanisms, facilitating strategic relationships with international multilateral bodies, diplomatic missions, and humanitarian networks worldwide.
                 </p>
             </div>
@@ -179,11 +179,11 @@ $patrons = getPatrons();
         </div>
 
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.5rem;">
-            <div style="background: #FFFFFF; border-left: 3px solid var(--blue); padding: 1.5rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; box-shadow: var(--shadow-subtle); border-top: 1px solid var(--border-subtle); border-right: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+            <div style="background: var(--bg-card); border-left: 3px solid var(--blue); padding: 1.5rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; box-shadow: var(--shadow-subtle); border-top: 1px solid var(--border-subtle); border-right: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
                 <h4 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--text-main);">
                     The Creation of the United Nations
                 </h4>
-                <p style="font-style: italic; color: var(--text-body); font-size: 0.85rem; line-height: 1.6; margin-bottom: 0.65rem;">
+                <p style="font-style: italic; color: var(--text-body); font-size: 0.88rem; line-height: 1.65; margin-bottom: 0.65rem;">
                     “The United Nations was born out of an agony of war—the most terrible war in history. Those who drew up the charter really had less to do with the creation of the United Nations than the millions who fought and died in that war.”
                 </p>
                 <div style="font-size: 0.775rem; font-weight: 700; color: var(--primary);">
@@ -191,11 +191,11 @@ $patrons = getPatrons();
                 </div>
             </div>
 
-            <div style="background: #FFFFFF; border-left: 3px solid var(--primary); padding: 1.5rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; box-shadow: var(--shadow-subtle); border-top: 1px solid var(--border-subtle); border-right: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+            <div style="background: var(--bg-card); border-left: 3px solid var(--primary); padding: 1.5rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; box-shadow: var(--shadow-subtle); border-top: 1px solid var(--border-subtle); border-right: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
                 <h4 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--text-main);">
                     Universal Declaration of Human Rights
                 </h4>
-                <p style="font-style: italic; color: var(--text-body); font-size: 0.85rem; line-height: 1.6; margin-bottom: 0.65rem;">
+                <p style="font-style: italic; color: var(--text-body); font-size: 0.88rem; line-height: 1.65; margin-bottom: 0.65rem;">
                     “All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.”
                 </p>
                 <div style="font-size: 0.775rem; font-weight: 700; color: var(--primary);">

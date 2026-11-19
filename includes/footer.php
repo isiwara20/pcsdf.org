@@ -6,13 +6,13 @@ require_once __DIR__ . '/config.php';
         <div class="footer-top">
             <!-- Brand Column -->
             <div>
-                <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.85rem;">
-                    <div style="height: 38px; width: 38px; border-radius: 6px; background: #FFF; padding: 2px; display: flex; align-items: center; justify-content: center;">
+                <div style="display: flex; align-items: center; gap: 0.85rem; margin-bottom: 1rem;">
+                    <div style="height: 48px; width: auto; min-width: 90px; max-width: 125px; border-radius: 8px; background: #FFF; padding: 3px 6px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
                         <img src="<?= BASE_URL ?>/assets/images/pcsdf-logo.jpg" alt="PCSDF Dove Logo" style="height: 100%; width: 100%; object-fit: contain;">
                     </div>
                     <div>
-                        <div style="font-family: var(--font-display); font-size: 1.05rem; font-weight: 700; color: #FFF;">PC-SDF</div>
-                        <div style="font-size: 0.7rem; color: #94A3B8;">Peace-Led Sustainable Development</div>
+                        <div style="font-family: var(--font-display); font-size: 1.15rem; font-weight: 700; color: #FFF;">PC-SDF</div>
+                        <div style="font-size: 0.72rem; color: #94A3B8;">Peace-Led Sustainable Development</div>
                     </div>
                 </div>
                 <p class="footer-brand-desc">
@@ -79,11 +79,15 @@ require_once __DIR__ . '/config.php';
             <div style="display: flex; gap: 1.25rem;">
                 <a href="<?= BASE_URL ?>/disclaimer.php" style="color: #94A3B8;">Disclaimer</a>
                 <a href="<?= BASE_URL ?>/privacy-policy.php" style="color: #94A3B8;">Privacy Policy</a>
-                <a href="<?= BASE_URL ?>/admin/index.php" style="color: #94A3B8;">Admin &amp; DB</a>
             </div>
         </div>
     </div>
 </footer>
+
+<!-- Floating Scroll-to-Top Button -->
+<button type="button" class="scroll-to-top" id="scrollToTopBtn" aria-label="Scroll back to top">
+    &#8593;
+</button>
 
 <!-- Scripts -->
 <script src="<?= BASE_URL ?>/assets/js/main.js"></script>

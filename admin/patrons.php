@@ -17,7 +17,7 @@ $patrons = getPatrons();
     <header style="background: #0B1323; color: #FFF; padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
         <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
             <div style="display: flex; align-items: center; gap: 0.85rem;">
-                <img src="<?= BASE_URL ?>/assets/images/pcsdf-logo.jpg" alt="Logo" style="height: 38px; border-radius: 4px; background: #FFF; padding: 2px;">
+                <img src="<?= BASE_URL ?>/assets/images/pcsdf-logo.jpg" alt="Logo" style="height: 48px; width: auto; border-radius: 6px; background: #FFF; padding: 2px 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
                 <div>
                     <span style="font-weight: 700; color: #FFF; font-size: 1.1rem;">PCSDF Admin Portal</span>
                     <span style="display: block; font-size: 0.75rem; color: #94A3B8;">Leadership &amp; Patrons Directory</span>
@@ -37,13 +37,13 @@ $patrons = getPatrons();
 
     <div class="container" style="padding-top: 2.5rem;">
         <!-- Board of Directors -->
-        <div style="background: #FFFFFF; border: 1px solid var(--border-light); border-radius: var(--radius-lg); padding: 2rem; box-shadow: var(--shadow-sm); margin-bottom: 2.5rem;">
+        <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 2rem; box-shadow: var(--shadow-sm); margin-bottom: 2.5rem;">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
                 <div>
-                    <h2 style="font-family: var(--font-serif); font-size: 1.5rem; color: var(--secondary-dark);">
+                    <h2 style="font-size: 1.5rem; color: var(--text-main);">
                         Board of Directors (5 Members)
                     </h2>
-                    <p style="font-size: 0.875rem; color: #64748B;">Strategic and fiduciary directors of the Forum.</p>
+                    <p style="font-size: 0.875rem; color: var(--text-muted);">Strategic and fiduciary directors of the Forum.</p>
                 </div>
                 <span class="badge badge-primary">Board Oversight</span>
             </div>
@@ -73,13 +73,13 @@ $patrons = getPatrons();
         </div>
 
         <!-- Distinguished Patrons -->
-        <div style="background: #FFFFFF; border: 1px solid var(--border-light); border-radius: var(--radius-lg); padding: 2rem; box-shadow: var(--shadow-sm);">
+        <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 2rem; box-shadow: var(--shadow-sm);">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
                 <div>
-                    <h2 style="font-family: var(--font-serif); font-size: 1.5rem; color: var(--secondary-dark);">
+                    <h2 style="font-size: 1.5rem; color: var(--text-main);">
                         Distinguished Patrons (11 Leaders)
                     </h2>
-                    <p style="font-size: 0.875rem; color: #64748B;">Including Senior Advisor Jean Ayoub and international diplomatic leaders.</p>
+                    <p style="font-size: 0.875rem; color: var(--text-muted);">Including Senior Advisor Jean Ayoub and international diplomatic leaders.</p>
                 </div>
                 <span class="badge badge-gold">11 Patrons</span>
             </div>

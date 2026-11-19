@@ -40,7 +40,7 @@ global $NINE_PILLARS;
             </p>
         </div>
 
-        <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.85rem; box-shadow: var(--shadow-card); line-height: 1.7; color: var(--text-body); font-size: 0.925rem;">
+        <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.85rem; box-shadow: var(--shadow-card); line-height: 1.7; color: var(--text-body); font-size: 0.925rem;">
             <p style="margin-bottom: 1rem;">
                 Humanity stands at a defining civilisational crossroads. Today, the world faces a convergence of crises — climate disruption, biodiversity loss, geopolitical fragmentation, rising inequality, sovereign debt distress, technological volatility, and weakening multilateral institutions.
             </p>
@@ -67,11 +67,11 @@ global $NINE_PILLARS;
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.25rem;">
             <!-- Cluster 1 -->
-            <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-top: 3px solid #DC2626; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
+            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-top: 3px solid #DC2626; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
                 <h3 style="font-size: 1.05rem; color: var(--text-main); margin-bottom: 0.5rem;">
                     Cluster I: Planetary &amp; Biogeochemical Systems
                 </h3>
-                <ul style="padding-left: 1.15rem; font-size: 0.825rem; color: var(--text-muted); line-height: 1.6;">
+                <ul style="padding-left: 1.15rem; font-size: 0.825rem; color: var(--text-body); line-height: 1.6;">
                     <li>1. Stratospheric Ozone &amp; Atmospheric Dynamics</li>
                     <li>2. Biosphere Integrity &amp; Genetic Diversity</li>
                     <li>3. Biogeochemical Flows (Nitrogen &amp; Phosphorus)</li>
@@ -81,11 +81,11 @@ global $NINE_PILLARS;
             </div>
 
             <!-- Cluster 2 -->
-            <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-top: 3px solid #059669; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
+            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-top: 3px solid #059669; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
                 <h3 style="font-size: 1.05rem; color: var(--text-main); margin-bottom: 0.5rem;">
                     Cluster II: Ecological &amp; Biome Systems
                 </h3>
-                <ul style="padding-left: 1.15rem; font-size: 0.825rem; color: var(--text-muted); line-height: 1.6;">
+                <ul style="padding-left: 1.15rem; font-size: 0.825rem; color: var(--text-body); line-height: 1.6;">
                     <li>6. Forest Canopy &amp; Old-Growth Ecosystems</li>
                     <li>7. Soil Microbiome, Fertility &amp; Land Degradation</li>
                     <li>8. Wetlands, Mangroves &amp; Coastal Buffers</li>
@@ -95,11 +95,11 @@ global $NINE_PILLARS;
             </div>
 
             <!-- Cluster 3 -->
-            <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-top: 3px solid #D97706; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
+            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-top: 3px solid #D97706; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
                 <h3 style="font-size: 1.05rem; color: var(--text-main); margin-bottom: 0.5rem;">
                     Cluster III: Human, Faith &amp; Cultural Systems
                 </h3>
-                <ul style="padding-left: 1.15rem; font-size: 0.825rem; color: var(--text-muted); line-height: 1.6;">
+                <ul style="padding-left: 1.15rem; font-size: 0.825rem; color: var(--text-body); line-height: 1.6;">
                     <li>11. Universal Human Dignity &amp; Human Rights</li>
                     <li>12. Indigenous Sovereignty &amp; Ancestral Wisdom</li>
                     <li>13. Faith Traditions &amp; Moral Stewardship</li>
@@ -109,11 +109,11 @@ global $NINE_PILLARS;
             </div>
 
             <!-- Cluster 4 -->
-            <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-top: 3px solid #2563EB; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
+            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-top: 3px solid #2563EB; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
                 <h3 style="font-size: 1.05rem; color: var(--text-main); margin-bottom: 0.5rem;">
                     Cluster IV: Peace, Conflict &amp; Multilateral Systems
                 </h3>
-                <ul style="padding-left: 1.15rem; font-size: 0.825rem; color: var(--text-muted); line-height: 1.6;">
+                <ul style="padding-left: 1.15rem; font-size: 0.825rem; color: var(--text-body); line-height: 1.6;">
                     <li>16. Disarmament &amp; Demilitarisation Accords</li>
                     <li>17. Conflict De-escalation &amp; Peacebuilding Hubs</li>
                     <li>18. Multilateral Treaties &amp; International Rule of Law</li>
@@ -123,11 +123,11 @@ global $NINE_PILLARS;
             </div>
 
             <!-- Cluster 5 -->
-            <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-top: 3px solid #7C3AED; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
+            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-top: 3px solid #7C3AED; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
                 <h3 style="font-size: 1.05rem; color: var(--text-main); margin-bottom: 0.5rem;">
                     Cluster V: Regenerative Economic &amp; Capital Systems
                 </h3>
-                <ul style="padding-left: 1.15rem; font-size: 0.825rem; color: var(--text-muted); line-height: 1.6;">
+                <ul style="padding-left: 1.15rem; font-size: 0.825rem; color: var(--text-body); line-height: 1.6;">
                     <li>21. Intergenerational Capital &amp; Green Sovereign Bonds</li>
                     <li>22. Circular Industrial Loops &amp; Zero-Waste Supply Chains</li>
                     <li>23. Sovereign Debt Restructuring &amp; Climate Swaps</li>
@@ -137,11 +137,11 @@ global $NINE_PILLARS;
             </div>
 
             <!-- Cluster 6 -->
-            <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-top: 3px solid #0891B2; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
+            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-top: 3px solid #0891B2; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
                 <h3 style="font-size: 1.05rem; color: var(--text-main); margin-bottom: 0.5rem;">
                     Cluster VI: Frontier, Digital &amp; Cosmic Commons
                 </h3>
-                <ul style="padding-left: 1.15rem; font-size: 0.825rem; color: var(--text-muted); line-height: 1.6;">
+                <ul style="padding-left: 1.15rem; font-size: 0.825rem; color: var(--text-body); line-height: 1.6;">
                     <li>26. Ethical AI, Algorithmic Transparency &amp; Data Rights</li>
                     <li>27. Orbital Sustainability &amp; Space Debris Governance</li>
                     <li>28. Celestial Commons &amp; Peaceful Space Exploration</li>
@@ -169,7 +169,7 @@ global $NINE_PILLARS;
                 <a href="<?= BASE_URL ?>/contact.php" class="btn btn-primary btn-sm">Request Full Taxonomy Documentation</a>
             </div>
 
-            <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.5rem; box-shadow: var(--shadow-card);">
+            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.5rem; box-shadow: var(--shadow-card);">
                 <h4 style="font-size: 1.05rem; margin-bottom: 0.85rem; color: var(--text-main);">
                     Sample Taxonomy Sectors
                 </h4>
@@ -226,15 +226,15 @@ global $NINE_PILLARS;
     <div class="container">
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
             <!-- Stewardship Hive -->
-            <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.85rem; box-shadow: var(--shadow-card);">
+            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.85rem; box-shadow: var(--shadow-card);">
                 <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Accountability</span>
                 <h3 style="font-size: 1.25rem; color: var(--text-main); margin-bottom: 0.75rem;">
                     The Monitoring &amp; Stewardship "Hive"
                 </h3>
-                <p style="color: var(--text-body); font-size: 0.85rem; line-height: 1.6; margin-bottom: 0.75rem;">
+                <p style="color: var(--text-body); font-size: 0.9rem; line-height: 1.68; margin-bottom: 0.75rem;">
                     The Hive is a decentralized multi-stakeholder sensory network designed to track indicators across all 30 systems in real-time, moving beyond static annual ESG reporting toward live planetary telemetry.
                 </p>
-                <ul style="padding-left: 1.15rem; font-size: 0.8rem; color: var(--text-muted); line-height: 1.55;">
+                <ul style="padding-left: 1.15rem; font-size: 0.85rem; color: var(--text-body); line-height: 1.6;">
                     <li>Cross-scale data feeds: satellite observation to community oral histories</li>
                     <li>Early-warning alerts for ecological thresholds and conflict escalations</li>
                     <li>Verification for green bonds and intergenerational claims</li>
@@ -242,15 +242,15 @@ global $NINE_PILLARS;
             </div>
 
             <!-- Intergenerational Finance -->
-            <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.85rem; box-shadow: var(--shadow-card);">
+            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.85rem; box-shadow: var(--shadow-card);">
                 <span class="badge badge-gold" style="margin-bottom: 0.5rem;">Capital Transition</span>
                 <h3 style="font-size: 1.25rem; color: var(--text-main); margin-bottom: 0.75rem;">
                     Intergenerational Regenerative Finance
                 </h3>
-                <p style="color: var(--text-body); font-size: 0.85rem; line-height: 1.6; margin-bottom: 0.75rem;">
+                <p style="color: var(--text-body); font-size: 0.9rem; line-height: 1.68; margin-bottom: 0.75rem;">
                     Current global capital markets discount future value to zero over 30-year discount curves. Our finance architecture introduces 100-year and 300-year intergenerational discount methodologies.
                 </p>
-                <ul style="padding-left: 1.15rem; font-size: 0.8rem; color: var(--text-muted); line-height: 1.55;">
+                <ul style="padding-left: 1.15rem; font-size: 0.85rem; color: var(--text-body); line-height: 1.6;">
                     <li>Regenerative Sovereign Debt Restructuring with ecological covenants</li>
                     <li>Blended philanthropic, multilateral, and private green bond facilities</li>
                     <li>Direct funding conduits for Indigenous communities and youth innovators</li>

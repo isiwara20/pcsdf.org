@@ -103,11 +103,11 @@ $partners = getEntityPartners();
         </div>
 
         <!-- Call to Affiliate -->
-        <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 2rem; margin-top: 3rem; text-align: center; box-shadow: var(--shadow-card);">
+        <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 2rem; margin-top: 3rem; text-align: center; box-shadow: var(--shadow-card);">
             <h3 style="font-size: 1.3rem; color: var(--text-main); margin-bottom: 0.5rem;">
                 Become an Institutional Focal Point or Partner
             </h3>
-            <p style="max-width: 620px; margin: 0 auto 1.25rem auto; color: var(--text-muted); font-size: 0.85rem;">
+            <p style="max-width: 620px; margin: 0 auto 1.25rem auto; color: var(--text-body); font-size: 0.9rem; line-height: 1.65;">
                 Does your institution, think tank, indigenous council, or youth network share our commitment to peace-led, climate-friendly planetary stewardship? We invite you to join our network.
             </p>
             <a href="<?= BASE_URL ?>/contact.php" class="btn btn-primary btn-sm">Submit Affiliation Inquiry &rarr;</a>

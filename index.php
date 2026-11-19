@@ -63,10 +63,10 @@ global $NINE_PILLARS;
 
                     <img src="<?= BASE_URL ?>/assets/images/pcsdf-logo.jpg" alt="PCSDF Official Dove Logo" class="hero-logo-display">
                     
-                    <h3 style="font-size: 1.15rem; color: #FFFFFF; margin-bottom: 0.25rem;">
+                    <h3 style="font-size: 1.15rem; color: var(--text-main); margin-bottom: 0.25rem;">
                         The Peace-Led Climate-Friendly Sustainable Development Forum
                     </h3>
-                    <p style="font-size: 0.775rem; color: #94A3B8; line-height: 1.45;">
+                    <p style="font-size: 0.775rem; color: var(--text-muted); line-height: 1.45;">
                         Constitutional Architecture for Systemic Flourishing
                     </p>
 
@@ -210,8 +210,8 @@ global $NINE_PILLARS;
                     JA
                 </div>
                 <span class="badge badge-primary" style="margin-bottom: 0.4rem;">Patron &amp; Senior Advisor</span>
-                <h3 style="font-size: 1.35rem; color: #FFFFFF; margin-bottom: 0.2rem;">Jean Ayoub</h3>
-                <p style="font-size: 0.775rem; color: #FF8A3D; font-weight: 600;">17 Yrs Sec-Gen &amp; CEO, International Social Service</p>
+                <h3 style="font-size: 1.35rem; color: var(--text-main); margin-bottom: 0.2rem;">Jean Ayoub</h3>
+                <p style="font-size: 0.775rem; color: var(--primary); font-weight: 600;">17 Yrs Sec-Gen &amp; CEO, International Social Service</p>
                 <div style="margin-top: 0.85rem;">
                     <a href="https://ch.linkedin.com/in/jeanayoub" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
                         LinkedIn Profile &rarr;
@@ -221,13 +221,13 @@ global $NINE_PILLARS;
 
             <div>
                 <span class="badge badge-gold" style="margin-bottom: 0.5rem; font-size: 0.68rem;">Foundational Pillar</span>
-                <h2 style="font-size: 1.35rem; margin-bottom: 0.75rem; color: #FFFFFF;">
+                <h2 style="font-size: 1.35rem; margin-bottom: 0.75rem; color: var(--text-main);">
                     Foundational Diplomatic Contribution
                 </h2>
-                <p style="color: #CBD5E1; font-size: 0.875rem; line-height: 1.6; margin-bottom: 0.75rem;">
+                <p style="color: var(--text-body); font-size: 0.92rem; line-height: 1.68; margin-bottom: 0.75rem;">
                     Jean Ayoub’s elevation recognises his foundational contribution to PCSDF and his distinguished international diplomatic leadership. During his 17 years heading International Social Service (ISS), Jean stewarded a global network extending across 120+ countries defending child rights, cross-border social justice, and humanitarian law.
                 </p>
-                <p style="color: #94A3B8; font-size: 0.825rem; line-height: 1.55; margin-bottom: 1rem;">
+                <p style="color: var(--text-body); font-size: 0.88rem; line-height: 1.65; margin-bottom: 1rem;">
                     As Senior Advisor, Jean guides multilateral institutional governance, linking PCSDF’s constitutional framework to global diplomatic missions.
                 </p>
                 <a href="<?= BASE_URL ?>/about.php#patrons" class="btn btn-primary btn-sm">View All 11 Distinguished Patrons &rarr;</a>

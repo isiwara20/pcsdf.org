@@ -25,7 +25,7 @@ $partners = getEntityPartners();
 <header style="background: #0B1323; color: #FFF; padding: 1rem 0; border-bottom: 1px solid rgba(255,255,255,0.1);">
     <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
         <div style="display: flex; align-items: center; gap: 0.85rem;">
-            <img src="<?= BASE_URL ?>/assets/images/pcsdf-logo.jpg" alt="Logo" style="height: 38px; border-radius: 4px; background: #FFF; padding: 2px;">
+            <img src="<?= BASE_URL ?>/assets/images/pcsdf-logo.jpg" alt="Logo" style="height: 48px; width: auto; border-radius: 6px; background: #FFF; padding: 2px 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
             <div>
                 <span style="font-weight: 700; color: #FFF; font-size: 1.1rem;">PCSDF Admin Portal</span>
                 <span style="display: block; font-size: 0.75rem; color: #94A3B8;">Secretariat &amp; Database Hub</span>
@@ -70,28 +70,28 @@ $partners = getEntityPartners();
 
     <!-- Quick Stats Metric Cards -->
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem; margin-bottom: 2.5rem;">
-        <div style="background: #FFFFFF; border: 1px solid var(--border-light); border-radius: var(--radius-md); padding: 1.5rem; box-shadow: var(--shadow-sm);">
-            <div style="font-size: 0.8rem; font-weight: 700; color: #64748B; text-transform: uppercase;">Inquiries / Leads</div>
+        <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.5rem; box-shadow: var(--shadow-sm);">
+            <div style="font-size: 0.8rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">Inquiries / Leads</div>
             <div style="font-size: 2.2rem; font-weight: 800; color: var(--primary); margin: 0.35rem 0;"><?= count($inquiries) ?></div>
-            <div style="font-size: 0.8rem; color: #94A3B8;">Contact form submissions</div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">Contact form submissions</div>
         </div>
 
-        <div style="background: #FFFFFF; border: 1px solid var(--border-light); border-radius: var(--radius-md); padding: 1.5rem; box-shadow: var(--shadow-sm);">
-            <div style="font-size: 0.8rem; font-weight: 700; color: #64748B; text-transform: uppercase;">Entity Partners</div>
+        <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.5rem; box-shadow: var(--shadow-sm);">
+            <div style="font-size: 0.8rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">Entity Partners</div>
             <div style="font-size: 2.2rem; font-weight: 800; color: #2563EB; margin: 0.35rem 0;"><?= count($partners) ?></div>
-            <div style="font-size: 0.8rem; color: #94A3B8;">Global focal points</div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">Global focal points</div>
         </div>
 
-        <div style="background: #FFFFFF; border: 1px solid var(--border-light); border-radius: var(--radius-md); padding: 1.5rem; box-shadow: var(--shadow-sm);">
-            <div style="font-size: 0.8rem; font-weight: 700; color: #64748B; text-transform: uppercase;">Distinguished Patrons</div>
+        <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.5rem; box-shadow: var(--shadow-sm);">
+            <div style="font-size: 0.8rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">Distinguished Patrons</div>
             <div style="font-size: 2.2rem; font-weight: 800; color: #D97706; margin: 0.35rem 0;"><?= count($patrons) ?></div>
-            <div style="font-size: 0.8rem; color: #94A3B8;">Including Jean Ayoub</div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">Including Jean Ayoub</div>
         </div>
 
-        <div style="background: #FFFFFF; border: 1px solid var(--border-light); border-radius: var(--radius-md); padding: 1.5rem; box-shadow: var(--shadow-sm);">
-            <div style="font-size: 0.8rem; font-weight: 700; color: #64748B; text-transform: uppercase;">Board of Directors</div>
+        <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.5rem; box-shadow: var(--shadow-sm);">
+            <div style="font-size: 0.8rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">Board of Directors</div>
             <div style="font-size: 2.2rem; font-weight: 800; color: #059669; margin: 0.35rem 0;"><?= count($board) ?></div>
-            <div style="font-size: 0.8rem; color: #94A3B8;">Founders &amp; strategic leaders</div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">Founders &amp; strategic leaders</div>
         </div>
     </div>
 
@@ -109,13 +109,13 @@ $partners = getEntityPartners();
     </div>
 
     <!-- Inquiries List -->
-    <div style="background: #FFFFFF; border: 1px solid var(--border-light); border-radius: var(--radius-lg); padding: 2rem; box-shadow: var(--shadow-sm);">
+    <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 2rem; box-shadow: var(--shadow-sm);">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
             <div>
-                <h3 style="font-family: var(--font-serif); font-size: 1.4rem; color: var(--secondary-dark);">
+                <h3 style="font-size: 1.4rem; color: var(--text-main);">
                     Recent Inquiries &amp; Project Proposals
                 </h3>
-                <p style="font-size: 0.85rem; color: #64748B;">Messages submitted via the contact and partnership form.</p>
+                <p style="font-size: 0.85rem; color: var(--text-muted);">Messages submitted via the contact and partnership form.</p>
             </div>
             <span class="badge badge-primary"><?= count($inquiries) ?> Total Submissions</span>
         </div>

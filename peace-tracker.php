@@ -35,55 +35,55 @@ $accords = getPeaceAccords();
         <!-- Crisis Flashpoints Grid -->
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; margin-top: 1.5rem;">
             <!-- Palestine -->
-            <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-top: 3px solid #DC2626; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
+            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-top: 3px solid #DC2626; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
                 <span class="badge badge-primary" style="margin-bottom: 0.45rem; font-size: 0.65rem;">Extreme Geographic Diffusion</span>
                 <h3 style="font-size: 1.05rem; margin-bottom: 0.35rem; color: var(--text-main);">Palestine &amp; West Asia</h3>
-                <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.55;">
+                <p style="font-size: 0.85rem; color: var(--text-body); line-height: 1.6;">
                     Ranked among the most dangerous places globally, with unprecedented geographic diffusion where ACLED records intense hostilities affecting nearly 70% of Gaza and parts of the West Bank.
                 </p>
             </div>
 
             <!-- Myanmar -->
-            <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-top: 3px solid #EA580C; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
+            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-top: 3px solid #EA580C; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
                 <span class="badge badge-gold" style="margin-bottom: 0.45rem; font-size: 0.65rem;">Extreme Fragmentation</span>
                 <h3 style="font-size: 1.05rem; margin-bottom: 0.35rem; color: var(--text-main);">Myanmar</h3>
-                <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.55;">
+                <p style="font-size: 0.85rem; color: var(--text-body); line-height: 1.6;">
                     The most fragmented armed conflict on Earth, with over 1,200 distinct armed groups and local defense forces active across contested states.
                 </p>
             </div>
 
             <!-- Ukraine -->
-            <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-top: 3px solid #2563EB; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
+            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-top: 3px solid #2563EB; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
                 <span class="badge badge-primary" style="margin-bottom: 0.45rem; font-size: 0.65rem;">High Deadliness</span>
                 <h3 style="font-size: 1.05rem; margin-bottom: 0.35rem; color: var(--text-main);">Ukraine &amp; Eastern Europe</h3>
-                <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.55;">
+                <p style="font-size: 0.85rem; color: var(--text-body); line-height: 1.6;">
                     High-intensity conventional warfare with massive civilian and military casualties, infrastructure destruction, and global food and energy market contagion.
                 </p>
             </div>
 
             <!-- Haiti -->
-            <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-top: 3px solid #7C3AED; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
+            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-top: 3px solid #7C3AED; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
                 <span class="badge badge-gold" style="margin-bottom: 0.45rem; font-size: 0.65rem;">Severe Civilian Danger</span>
                 <h3 style="font-size: 1.05rem; margin-bottom: 0.35rem; color: var(--text-main);">Haiti</h3>
-                <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.55;">
+                <p style="font-size: 0.85rem; color: var(--text-body); line-height: 1.6;">
                     Over 4,500 fatalities resulting from acute gang and political violence, combined with state institutional fragility and targeted civilian violence.
                 </p>
             </div>
 
             <!-- Ecuador -->
-            <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-top: 3px solid #059669; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
+            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-top: 3px solid #059669; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
                 <span class="badge badge-primary" style="margin-bottom: 0.45rem; font-size: 0.65rem;">Rapid Escalation</span>
                 <h3 style="font-size: 1.05rem; margin-bottom: 0.35rem; color: var(--text-main);">Ecuador</h3>
-                <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.55;">
+                <p style="font-size: 0.85rem; color: var(--text-body); line-height: 1.6;">
                     A sharp surge in lethal political violence and transnational cartel insurgencies, with over 1,000 more fatalities than previous annual baselines.
                 </p>
             </div>
 
             <!-- Pakistan & South Asia -->
-            <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-top: 3px solid #0891B2; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
+            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-top: 3px solid #0891B2; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
                 <span class="badge badge-gold" style="margin-bottom: 0.45rem; font-size: 0.65rem;">Regional Vulnerability</span>
                 <h3 style="font-size: 1.05rem; margin-bottom: 0.35rem; color: var(--text-main);">Pakistan &amp; Regional Security</h3>
-                <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.55;">
+                <p style="font-size: 0.85rem; color: var(--text-body); line-height: 1.6;">
                     Elevated civilian danger and cross-border tensions, compounded by internal economic strains and shifting geopolitical alignments.
                 </p>
             </div>
@@ -141,15 +141,15 @@ $accords = getPeaceAccords();
 <section class="section">
     <div class="container">
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center;">
-            <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.85rem; box-shadow: var(--shadow-card);">
+            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.85rem; box-shadow: var(--shadow-card);">
                 <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Development Voice</span>
                 <h3 style="font-size: 1.25rem; color: var(--text-main); margin-bottom: 0.35rem;">
                     Spotlight: Dr. Indermit Gill
                 </h3>
-                <div style="font-size: 0.775rem; color: var(--primary); font-weight: 600; margin-bottom: 0.75rem;">
+                <div style="font-size: 0.8rem; color: var(--primary); font-weight: 600; margin-bottom: 0.75rem;">
                     Chief Economist &amp; Senior Vice President, World Bank Group
                 </div>
-                <p style="font-size: 0.825rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 0.85rem;">
+                <p style="font-size: 0.88rem; color: var(--text-body); line-height: 1.65; margin-bottom: 0.85rem;">
                     Leading international economic research on debt distress across developing nations and systemic structural transformations needed to achieve genuine poverty reduction alongside climate resilience.
                 </p>
                 <a href="https://www.worldbank.org/ext/en/who-we-are/leadership/indermit-gill" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
@@ -158,7 +158,7 @@ $accords = getPeaceAccords();
             </div>
 
             <!-- Poverty Quote -->
-            <div style="background: #FFF9F8; border-left: 3px solid var(--primary); border-radius: 0 var(--radius-md) var(--radius-md) 0; padding: 1.85rem;">
+            <div style="background: var(--quote-bg); border-left: 3px solid var(--primary); border-radius: 0 var(--radius-md) var(--radius-md) 0; padding: 1.85rem;">
                 <h4 style="font-size: 1.15rem; color: var(--text-main); margin-bottom: 0.75rem;">
                     Multidimensional Poverty &amp; Human Security
                 </h4>
@@ -168,7 +168,7 @@ $accords = getPeaceAccords();
                 <div style="font-size: 0.8rem; font-weight: 700; color: var(--primary);">
                     — Kofi Annan, Seventh Secretary-General of the United Nations
                 </div>
-                <p style="font-size: 0.775rem; color: var(--text-muted); margin-top: 0.75rem; line-height: 1.55;">
+                <p style="font-size: 0.85rem; color: var(--text-body); margin-top: 0.75rem; line-height: 1.6;">
                     The PFICF-RSSDF recognises that true peace cannot take root while structural deprivation deprives billions of basic dignity.
                 </p>
             </div>

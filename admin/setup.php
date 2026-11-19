@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
 </head>
 <body style="background: #F8FAFC; padding: 3rem 1rem;">
     <div class="container container-narrow">
-        <div style="background: #FFFFFF; border-radius: var(--radius-lg); padding: 2.5rem; box-shadow: var(--shadow-md); border: 1px solid var(--border-light);">
+        <div style="background: var(--bg-card); border-radius: var(--radius-lg); padding: 2.5rem; box-shadow: var(--shadow-md); border: 1px solid var(--border-subtle);">
             <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
                 <img src="<?= BASE_URL ?>/assets/images/pcsdf-logo.jpg" alt="PCSDF Logo" style="height: 50px;">
                 <div>

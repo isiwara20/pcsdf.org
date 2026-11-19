@@ -25,7 +25,7 @@ $poems = getPoems();
 <section class="section">
     <div class="container container-compact">
         <?php foreach ($poems as $poem): ?>
-            <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 2.25rem; box-shadow: var(--shadow-card); margin-bottom: 2rem;">
+            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 2.25rem; box-shadow: var(--shadow-card); margin-bottom: 2rem;">
                 <span class="badge badge-gold" style="margin-bottom: 0.75rem; font-size: 0.68rem;"><?= htmlspecialchars($poem['theme'] ?? 'Reflections') ?></span>
                 <h2 style="font-size: 1.45rem; color: var(--text-main); margin-bottom: 0.25rem;">
                     <?= htmlspecialchars($poem['title']) ?>
@@ -45,11 +45,11 @@ $poems = getPoems();
         <?php endforeach; ?>
 
         <!-- Munir Mezyed Foundation Highlight -->
-        <div style="background: #FFFFFF; border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.75rem; text-align: center; box-shadow: var(--shadow-card);">
+        <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.75rem; text-align: center; box-shadow: var(--shadow-card);">
             <h3 style="font-size: 1.15rem; color: var(--text-main); margin-bottom: 0.4rem;">
                 Cultural &amp; Poetic Diplomacy Partner
             </h3>
-            <p style="font-size: 0.825rem; color: var(--text-muted); max-width: 540px; margin: 0 auto 1rem auto; line-height: 1.55;">
+            <p style="font-size: 0.88rem; color: var(--text-body); max-width: 540px; margin: 0 auto 1rem auto; line-height: 1.6;">
                 In collaboration with the <strong>Munir Mezyed Foundation</strong>, PCSDF champions poetry and creative arts as instruments for intercultural dialogue and planetary healing.
             </p>
             <a href="<?= BASE_URL ?>/network.php" class="btn btn-outline btn-sm">View Entity Partner Focal Points &rarr;</a>
