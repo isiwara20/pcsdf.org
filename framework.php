@@ -156,7 +156,7 @@ global $NINE_PILLARS;
 <!-- The 332-Sector Taxonomy -->
 <section class="section" id="sectors">
     <div class="container">
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: center;">
+        <div class="grid-2col-center">
             <div>
                 <span class="badge badge-gold">Classification Taxonomy</span>
                 <h2 class="section-title" style="margin-top: 0.4rem;">The 332-Sector &amp; Sub-Sector Taxonomy</h2>
@@ -173,7 +173,7 @@ global $NINE_PILLARS;
                 <h4 style="font-size: 1.05rem; margin-bottom: 0.85rem; color: var(--text-main);">
                     Sample Taxonomy Sectors
                 </h4>
-                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem;">
+                <div class="grid-2col-sm">
                     <div style="padding: 0.65rem; background: var(--bg-surface-alt); border-radius: 6px; font-size: 0.775rem; font-weight: 600;">
                         &bull; Regenerative Agriculture (34 Sectors)
                     </div>
@@ -224,7 +224,7 @@ global $NINE_PILLARS;
 <!-- Stewardship Hive & Intergenerational Finance -->
 <section class="section" id="finance">
     <div class="container">
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+        <div class="grid-2col">
             <!-- Stewardship Hive -->
             <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.85rem; box-shadow: var(--shadow-card);">
                 <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Accountability</span>

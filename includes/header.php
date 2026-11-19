@@ -42,7 +42,7 @@ if (!isset($page_title)) {
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/style.css?v=<?= filemtime(__DIR__ . '/../assets/css/style.css') ?>">
     
     <!-- Favicon -->
     <link rel="shortcut icon" href="<?= BASE_URL ?>/assets/images/pcsdf-logo.jpg" type="image/jpeg">

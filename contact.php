@@ -149,7 +149,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <input type="text" id="full_name" name="full_name" class="form-control" required placeholder="e.g. Dr. Eleanor Vance" value="<?= isset($_POST['full_name']) ? htmlspecialchars($_POST['full_name']) : '' ?>">
                         </div>
 
-                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.85rem;">
+                        <div class="grid-form-2col">
                             <div class="form-group">
                                 <label class="form-label" for="email">Official Email *</label>
                                 <input type="email" id="email" name="email" class="form-control" required placeholder="name@institution.org" value="<?= isset($_POST['email']) ? htmlspecialchars($_POST['email']) : '' ?>">

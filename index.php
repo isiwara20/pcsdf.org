@@ -274,7 +274,7 @@ global $NINE_PILLARS;
 <!-- Historic Spotlight: San Francisco 1951 -->
 <section class="section section-dark">
     <div class="container">
-        <div style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 2.5rem; align-items: center;">
+        <div class="historic-grid">
             <div>
                 <span class="badge badge-glass" style="margin-bottom: 0.75rem;">Diplomatic Precedent</span>
                 <h2 style="font-size: 1.65rem; color: #FFFFFF; margin-bottom: 0.75rem;">
@@ -292,32 +292,32 @@ global $NINE_PILLARS;
                     When Allied nations met to determine the post-war status of Japan, Sri Lanka renounced war reparations and pleaded for magnanimity and reconciliation. The speech won the enduring gratitude of the Japanese people and remains an emblem of peace-led statecraft.
                 </p>
 
-                <div style="display: flex; gap: 0.75rem;">
+                <div class="historic-actions">
                     <a href="<?= BASE_URL ?>/peace-tracker.php" class="btn btn-primary btn-sm">Explore Peace Tracker</a>
                     <a href="https://island.lk/jrjs-san-francisco-speech-that-won-japans-eternal-gratitude/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Speech Archive &rarr;</a>
                 </div>
             </div>
 
             <!-- Compact Accords List -->
-            <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid var(--border-card); border-radius: var(--radius-md); padding: 1.25rem;">
+            <div class="accords-card">
                 <h4 style="color: #FFFFFF; font-size: 0.95rem; margin-bottom: 0.85rem;">Landmark Accords in Modern History</h4>
                 
                 <div style="display: flex; flex-direction: column; gap: 0.65rem; font-size: 0.8rem;">
-                    <div style="padding-bottom: 0.5rem; border-bottom: 1px solid var(--border-subtle);">
+                    <div class="accord-item">
                         <strong style="color: #FF8A3D;">1973: Paris Peace Accords</strong>
-                        <div style="color: #94A3B8; font-size: 0.75rem;">Ceasefire and U.S. combat role conclusion in Vietnam.</div>
+                        <div class="accord-desc">Ceasefire and U.S. combat role conclusion in Vietnam.</div>
                     </div>
-                    <div style="padding-bottom: 0.5rem; border-bottom: 1px solid var(--border-subtle);">
+                    <div class="accord-item">
                         <strong style="color: #FF8A3D;">1978: Camp David Accords</strong>
-                        <div style="color: #94A3B8; font-size: 0.75rem;">Landmark peace treaty between Egypt and Israel.</div>
+                        <div class="accord-desc">Landmark peace treaty between Egypt and Israel.</div>
                     </div>
-                    <div style="padding-bottom: 0.5rem; border-bottom: 1px solid var(--border-subtle);">
+                    <div class="accord-item">
                         <strong style="color: #FF8A3D;">1987: Indo-Lanka Accord</strong>
-                        <div style="color: #94A3B8; font-size: 0.75rem;">Provincial devolution in Sri Lanka and peacekeeping.</div>
+                        <div class="accord-desc">Provincial devolution in Sri Lanka and peacekeeping.</div>
                     </div>
-                    <div>
+                    <div class="accord-item">
                         <strong style="color: #FF8A3D;">2016: Colombian Peace Agreement</strong>
-                        <div style="color: #94A3B8; font-size: 0.75rem;">Ending 50+ years of armed conflict with FARC.</div>
+                        <div class="accord-desc">Ending 50+ years of armed conflict with FARC.</div>
                     </div>
                 </div>
             </div>

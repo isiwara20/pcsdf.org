@@ -90,6 +90,6 @@ require_once __DIR__ . '/config.php';
 </button>
 
 <!-- Scripts -->
-<script src="<?= BASE_URL ?>/assets/js/main.js"></script>
+<script src="<?= BASE_URL ?>/assets/js/main.js?v=<?= filemtime(__DIR__ . '/../assets/js/main.js') ?>"></script>
 </body>
 </html>

@@ -140,7 +140,7 @@ $accords = getPeaceAccords();
 <!-- Poverty & Human Security -->
 <section class="section">
     <div class="container">
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center;">
+        <div class="grid-2col-center">
             <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.85rem; box-shadow: var(--shadow-card);">
                 <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Development Voice</span>
                 <h3 style="font-size: 1.25rem; color: var(--text-main); margin-bottom: 0.35rem;">

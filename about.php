@@ -25,7 +25,7 @@ $patrons = getPatrons();
 <!-- Vision & Mission Grid -->
 <section class="section">
     <div class="container">
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+        <div class="grid-2col">
             <!-- Vision -->
             <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-top: 3px solid var(--primary); border-radius: var(--radius-md); padding: 1.85rem; box-shadow: var(--shadow-card);">
                 <span class="badge badge-primary" style="margin-bottom: 0.85rem;">Our Vision</span>
@@ -178,7 +178,7 @@ $patrons = getPatrons();
             <h2 class="section-title">Moral &amp; Institutional Precedents</h2>
         </div>
 
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.5rem;">
+        <div class="grid-2col" style="margin-top: 1.5rem;">
             <div style="background: var(--bg-card); border-left: 3px solid var(--blue); padding: 1.5rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; box-shadow: var(--shadow-subtle); border-top: 1px solid var(--border-subtle); border-right: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
                 <h4 style="font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--text-main);">
                     The Creation of the United Nations
