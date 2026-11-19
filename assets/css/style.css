@@ -1065,6 +1065,101 @@ h6 {
   line-height: 1.45;
 }
 
+/* ==========================================================================
+   RESPONSIVE GRID UTILITIES & HISTORIC ACCORDS
+   ========================================================================== */
+.grid-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.grid-2col-center {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  width: 100%;
+}
+
+.grid-2col-split {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 2.5rem;
+  align-items: center;
+  width: 100%;
+}
+
+.grid-form-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.85rem;
+  width: 100%;
+}
+
+.grid-2col-sm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+  width: 100%;
+}
+
+/* Historic Spotlight Section (San Francisco 1951 & Landmark Accords) */
+.historic-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 2.5rem;
+  align-items: center;
+  width: 100%;
+}
+
+.historic-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.accords-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+[data-theme="light"] .accords-card {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.accord-item {
+  padding-bottom: 0.65rem;
+  margin-bottom: 0.65rem;
+  border-bottom: 1px solid var(--border-subtle);
+  word-break: break-word;
+}
+
+.accord-item:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.accord-item strong {
+  display: block;
+  font-size: 0.825rem;
+  margin-bottom: 0.15rem;
+  line-height: 1.35;
+}
+
+.accord-item .accord-desc {
+  color: #94A3B8;
+  font-size: 0.75rem;
+  line-height: 1.45;
+}
+
 /* Pillars, Team, & Partners */
 .pillars-grid,
 .team-grid,
@@ -1697,6 +1792,64 @@ textarea.form-control {
   .team-grid,
   .partners-grid {
     grid-template-columns: 1fr;
+  }
+
+  .grid-2col,
+  .grid-2col-center {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .historic-grid,
+  .grid-2col-split {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  .historic-actions {
+    flex-direction: column;
+    width: 100%;
+    align-items: stretch;
+  }
+
+  .historic-actions .btn {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .accords-card {
+    padding: 1.15rem 1rem;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  /* Full responsive taxonomy sector list for mobile Apple screens */
+  .taxonomy-card {
+    padding: 1.15rem 1rem;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .taxonomy-sectors-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .taxonomy-sector-item {
+    font-size: 0.82rem;
+    padding: 0.65rem 0.85rem;
+  }
+
+  .grid-2col-sm {
+    grid-template-columns: 1fr;
+    gap: 0.55rem;
+  }
+
+  .btn {
+    white-space: normal;
+    text-align: center;
+    max-width: 100%;
   }
 
   .grid-2col,
