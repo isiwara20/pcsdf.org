@@ -14,7 +14,7 @@ if (!isset($page_title)) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title><?= htmlspecialchars($page_title) ?></title>
     <meta name="description" content="<?= htmlspecialchars(SITE_SLOGAN) ?>">
 
@@ -79,12 +79,8 @@ if (!isset($page_title)) {
 
                 <!-- 2 Distinct Theme Buttons on Larger Screens (Light & Dark) -->
                 <div class="theme-segmented-switch" role="group" aria-label="Theme Mode Selection">
-                    <button type="button" class="theme-segment-btn" data-theme-val="light" title="Switch to Light Theme">
-                        <span>&#9728; Light</span>
-                    </button>
-                    <button type="button" class="theme-segment-btn" data-theme-val="dark" title="Switch to Dark Theme">
-                        <span>&#9790; Dark</span>
-                    </button>
+                    <button type="button" class="theme-segment-btn" data-theme-val="light" title="Switch to Light Theme">&#9728; Light</button>
+                    <button type="button" class="theme-segment-btn" data-theme-val="dark" title="Switch to Dark Theme">&#9790; Dark</button>
                 </div>
 
                 <a href="<?= BASE_URL ?>/contact.php" class="btn btn-primary btn-sm">
