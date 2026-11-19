@@ -65,7 +65,7 @@ global $NINE_PILLARS;
             </p>
         </div>
 
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.25rem;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem;">
             <!-- Cluster 1 -->
             <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-top: 3px solid #DC2626; border-radius: var(--radius-sm); padding: 1.35rem; box-shadow: var(--shadow-subtle);">
                 <h3 style="font-size: 1.05rem; color: var(--text-main); margin-bottom: 0.5rem;">
@@ -169,28 +169,28 @@ global $NINE_PILLARS;
                 <a href="<?= BASE_URL ?>/contact.php" class="btn btn-primary btn-sm">Request Full Taxonomy Documentation</a>
             </div>
 
-            <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.5rem; box-shadow: var(--shadow-card);">
+            <div class="taxonomy-card">
                 <h4 style="font-size: 1.05rem; margin-bottom: 0.85rem; color: var(--text-main);">
                     Sample Taxonomy Sectors
                 </h4>
-                <div class="grid-2col-sm">
-                    <div style="padding: 0.65rem; background: var(--bg-surface-alt); border-radius: 6px; font-size: 0.775rem; font-weight: 600;">
-                        &bull; Regenerative Agriculture (34 Sectors)
+                <div class="taxonomy-sectors-grid">
+                    <div class="taxonomy-sector-item">
+                        &bull;&nbsp;Regenerative Agriculture (34 Sectors)
                     </div>
-                    <div style="padding: 0.65rem; background: var(--bg-surface-alt); border-radius: 6px; font-size: 0.775rem; font-weight: 600;">
-                        &bull; Clean Energy Trilemma (28 Sectors)
+                    <div class="taxonomy-sector-item">
+                        &bull;&nbsp;Clean Energy Trilemma (28 Sectors)
                     </div>
-                    <div style="padding: 0.65rem; background: var(--bg-surface-alt); border-radius: 6px; font-size: 0.775rem; font-weight: 600;">
-                        &bull; Blue Economy &amp; Oceans (26 Sectors)
+                    <div class="taxonomy-sector-item">
+                        &bull;&nbsp;Blue Economy &amp; Oceans (26 Sectors)
                     </div>
-                    <div style="padding: 0.65rem; background: var(--bg-surface-alt); border-radius: 6px; font-size: 0.775rem; font-weight: 600;">
-                        &bull; Peace &amp; Disarmament (22 Sectors)
+                    <div class="taxonomy-sector-item">
+                        &bull;&nbsp;Peace &amp; Disarmament (22 Sectors)
                     </div>
-                    <div style="padding: 0.65rem; background: var(--bg-surface-alt); border-radius: 6px; font-size: 0.775rem; font-weight: 600;">
-                        &bull; Orbital Commons &amp; Space (18 Sectors)
+                    <div class="taxonomy-sector-item">
+                        &bull;&nbsp;Orbital Commons &amp; Space (18 Sectors)
                     </div>
-                    <div style="padding: 0.65rem; background: var(--bg-surface-alt); border-radius: 6px; font-size: 0.775rem; font-weight: 600;">
-                        &bull; Ethical AI &amp; Web (30 Sectors)
+                    <div class="taxonomy-sector-item">
+                        &bull;&nbsp;Ethical AI &amp; Web (30 Sectors)
                     </div>
                 </div>
             </div>

@@ -976,6 +976,40 @@ h6 {
   width: 100%;
 }
 
+/* Taxonomy Showcase Component */
+.taxonomy-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-card);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.taxonomy-sectors-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.65rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.taxonomy-sector-item {
+  display: flex;
+  align-items: center;
+  padding: 0.65rem 0.85rem;
+  background: var(--bg-surface-alt);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xs);
+  font-size: 0.785rem;
+  font-weight: 600;
+  color: var(--text-main);
+  line-height: 1.4;
+  word-break: break-word;
+  box-sizing: border-box;
+}
+
 /* Historic Spotlight Section (San Francisco 1951 & Landmark Accords) */
 .historic-grid {
   display: grid;
@@ -1693,6 +1727,34 @@ textarea.form-control {
     padding: 1.15rem 1rem;
     box-sizing: border-box;
     width: 100%;
+  }
+
+  /* Full responsive taxonomy sector list for mobile Apple screens */
+  .taxonomy-card {
+    padding: 1.15rem 1rem;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .taxonomy-sectors-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .taxonomy-sector-item {
+    font-size: 0.82rem;
+    padding: 0.65rem 0.85rem;
+  }
+
+  .grid-2col-sm {
+    grid-template-columns: 1fr;
+    gap: 0.55rem;
+  }
+
+  .btn {
+    white-space: normal;
+    text-align: center;
+    max-width: 100%;
   }
 }
 
