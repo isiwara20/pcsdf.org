@@ -18,13 +18,12 @@ if (!isset($page_title)) {
     <title><?= htmlspecialchars($page_title) ?></title>
     <meta name="description" content="<?= htmlspecialchars(SITE_SLOGAN) ?>">
 
-    <!-- Anti-flicker Dual-Theme Initializer -->
+    <!-- Clean Light Theme Initializer (Default: Light Canvas) -->
     <script>
         (function() {
             try {
                 const savedTheme = localStorage.getItem('pcsdf-theme');
-                const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-                const theme = savedTheme ? savedTheme : (prefersDark ? 'dark' : 'light');
+                const theme = savedTheme ? savedTheme : 'light';
                 document.documentElement.setAttribute('data-theme', theme);
             } catch(e) {}
         })();
@@ -81,24 +80,23 @@ if (!isset($page_title)) {
                 </div>
             </a>
 
-            <!-- Desktop Nav Menu -->
+            <!-- Desktop Nav Menu (Strictly following pcsdf.org menu logic) -->
             <nav class="desktop-nav" aria-label="Main Navigation">
                 <a href="<?= BASE_URL ?>/index.php" class="nav-link <?= ($current_page == 'index.php') ? 'active' : '' ?>">Home</a>
-                <a href="<?= BASE_URL ?>/about.php" class="nav-link <?= ($current_page == 'about.php') ? 'active' : '' ?>">Leadership &amp; Governance</a>
-                <a href="<?= BASE_URL ?>/framework.php" class="nav-link <?= ($current_page == 'framework.php') ? 'active' : '' ?>">Framework</a>
-                <a href="<?= BASE_URL ?>/network.php" class="nav-link <?= ($current_page == 'network.php') ? 'active' : '' ?>">Entity Partners</a>
-                <a href="<?= BASE_URL ?>/peace-tracker.php" class="nav-link <?= ($current_page == 'peace-tracker.php') ? 'active' : '' ?>">Peace Tracker</a>
-                <a href="<?= BASE_URL ?>/poems.php" class="nav-link <?= ($current_page == 'poems.php') ? 'active' : '' ?>">Poems &amp; Inspiration</a>
-                <a href="<?= BASE_URL ?>/contact.php" class="nav-link <?= ($current_page == 'contact.php') ? 'active' : '' ?>">Contact</a>
+                <a href="<?= BASE_URL ?>/about.php" class="nav-link <?= ($current_page == 'about.php') ? 'active' : '' ?>">About Us</a>
+                <a href="<?= BASE_URL ?>/contact.php" class="nav-link <?= ($current_page == 'contact.php') ? 'active' : '' ?>">Call For Action / Journey</a>
+                <a href="<?= BASE_URL ?>/poems.php" class="nav-link <?= ($current_page == 'poems.php') ? 'active' : '' ?>">Poems</a>
+                <a href="<?= BASE_URL ?>/disclaimer.php" class="nav-link <?= ($current_page == 'disclaimer.php') ? 'active' : '' ?>">Disclaimer</a>
+                <a href="<?= BASE_URL ?>/privacy-policy.php" class="nav-link <?= ($current_page == 'privacy-policy.php') ? 'active' : '' ?>">Privacy Policy</a>
 
-                <!-- 2 Distinct Theme Buttons (Light & Dark) -->
+                <!-- Theme Toggle Button -->
                 <div class="theme-segmented-switch" role="group" aria-label="Theme Mode Selection">
                     <button type="button" class="theme-segment-btn" data-theme-val="light" title="Switch to Light Theme">&#9728; Light</button>
                     <button type="button" class="theme-segment-btn" data-theme-val="dark" title="Switch to Dark Theme">&#9790; Dark</button>
                 </div>
 
                 <a href="<?= BASE_URL ?>/contact.php" class="btn btn-primary btn-sm">
-                    Inquire / Partner &rarr;
+                    Inquire / Connect &rarr;
                 </a>
             </nav>
 
@@ -120,12 +118,28 @@ if (!isset($page_title)) {
     <!-- Mobile Drawer Overlay -->
     <div class="mobile-nav-drawer" id="mobileNavDrawer">
         <a href="<?= BASE_URL ?>/index.php" class="nav-link <?= ($current_page == 'index.php') ? 'active' : '' ?>">Home</a>
-        <a href="<?= BASE_URL ?>/about.php" class="nav-link <?= ($current_page == 'about.php') ? 'active' : '' ?>">Leadership &amp; Governance</a>
-        <a href="<?= BASE_URL ?>/framework.php" class="nav-link <?= ($current_page == 'framework.php') ? 'active' : '' ?>">PFICF-RSSDF Framework</a>
-        <a href="<?= BASE_URL ?>/network.php" class="nav-link <?= ($current_page == 'network.php') ? 'active' : '' ?>">Entity Partners &amp; Focal Points</a>
-        <a href="<?= BASE_URL ?>/peace-tracker.php" class="nav-link <?= ($current_page == 'peace-tracker.php') ? 'active' : '' ?>">Peace &amp; Conflict Tracker</a>
-        <a href="<?= BASE_URL ?>/poems.php" class="nav-link <?= ($current_page == 'poems.php') ? 'active' : '' ?>">Poems &amp; Reflections</a>
-        <a href="<?= BASE_URL ?>/contact.php" class="nav-link <?= ($current_page == 'contact.php') ? 'active' : '' ?>">Contact Us</a>
+        <a href="<?= BASE_URL ?>/about.php" class="nav-link <?= ($current_page == 'about.php') ? 'active' : '' ?>">About Us</a>
+        <a href="<?= BASE_URL ?>/contact.php" class="nav-link <?= ($current_page == 'contact.php') ? 'active' : '' ?>">Call For Action / Journey</a>
+        <a href="<?= BASE_URL ?>/poems.php" class="nav-link <?= ($current_page == 'poems.php') ? 'active' : '' ?>">Poems</a>
+        <a href="<?= BASE_URL ?>/disclaimer.php" class="nav-link <?= ($current_page == 'disclaimer.php') ? 'active' : '' ?>">Disclaimer</a>
+        <a href="<?= BASE_URL ?>/privacy-policy.php" class="nav-link <?= ($current_page == 'privacy-policy.php') ? 'active' : '' ?>">Privacy Policy</a>
+        
+        <div class="mobile-theme-row">
+            <span style="font-size: 0.8rem; font-weight: 600; color: var(--text-muted);">Theme Mode:</span>
+            <div class="theme-segmented-switch">
+                <button type="button" class="theme-segment-btn" data-theme-val="light">
+                    <span>&#9728; Light</span>
+                </button>
+                <button type="button" class="theme-segment-btn" data-theme-val="dark">
+                    <span>&#9790; Dark</span>
+                </button>
+            </div>
+        </div>
+
+        <div style="padding-top: 0.75rem;">
+            <a href="<?= BASE_URL ?>/contact.php" class="btn btn-primary" style="width: 100%;">Inquire / Start a Project</a>
+        </div>
+    </div>
         
         <div class="mobile-theme-row">
             <span style="font-size: 0.8rem; font-weight: 600; color: var(--text-muted);">Theme Mode:</span>

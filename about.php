@@ -1,203 +1,115 @@
 <?php
-$page_title = "About Us — Leadership, Patrons & Governance";
+$page_title = "Latest About Us, Incorporations, Vision, Mission, Patrons, Board & Entity Partners";
 require_once __DIR__ . '/includes/header.php';
-
-$patrons = getPatrons();
-$board = getBoardMembers();
-$advisors = getAdvisors();
-$partners = getEntityPartners();
 ?>
 
 <!-- ==========================================================================
-     ABOUT HERO SECTION — RED & BLACK DIPLOMATIC INSTITUTIONAL PROFILE
+     ABOUT US & GOVERNANCE — SECOND PAGE DIRECT FROM WWW.PCSDF.ORG
      ========================================================================== -->
-<section class="hero-section" style="padding: 3.25rem 0;">
+<section class="section" style="padding: 2.75rem 0 1.5rem 0; background: #FFFFFF;">
     <div class="container">
-        <div class="hero-badge-wrap">
-            <span class="badge badge-primary">Institutional Profile</span>
-            <span class="badge badge-gold">Constitutional Governance</span>
-            <span class="badge badge-primary">Singapore CLG</span>
+        <!-- Breadcrumb / Slogan -->
+        <div style="margin-bottom: 1.25rem;">
+            <span class="red-block-heading" style="font-size: 1rem; padding: 0.25rem 0.65rem;">
+                PCSDF &bull; Institutional Updates &amp; Introductions
+            </span>
         </div>
-        <h1 class="display-title" style="margin-bottom: 0.85rem;">
-            About PCSDF, Leadership &amp; Governance
+
+        <h1 style="font-size: 2.15rem; font-weight: 800; color: #000000; font-family: var(--font-display); line-height: 1.2; margin-bottom: 0.85rem;">
+            Latest About Us, Incorporations, Vision, Mission, Patrons, Board Members, Advisors &amp; Entity Partners
         </h1>
-        <p class="hero-lead container-narrow" style="margin: 0 0 1.25rem 0;">
-            A global network-of-networks pioneering the world’s first peace-led constitutional framework holding climate, peace, planetary boundaries, human dignity, and frontier technologies together as one living whole.
+
+        <p class="supporting-fact-text" style="font-size: 1.05rem; font-weight: 600; color: #000000; max-width: 900px; margin-bottom: 1rem;">
+            We are a network of networks that support all countries, ten dependent states and two non-voting UN countries &mdash; Vatican and Palestine.
         </p>
-        <div style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">
-            Incorporated as a Company Limited by Guarantee in Singapore on 24 December 2021 &bull; Global E-Launch: 7 June 2022
+
+        <div style="background: #FEF2F2; border-left: 3px solid #B91C1C; padding: 0.85rem 1.15rem; margin-bottom: 2rem;">
+            <p style="font-size: 0.9rem; color: #000000; margin: 0; font-weight: 600;">
+                Official Social &amp; Verification Channels: Click on the official Facebook Network links below for all verified profiles, focal points, and institutional records.
+            </p>
         </div>
     </div>
 </section>
 
 <!-- ==========================================================================
-     VISION & MISSION DUAL CARDS
+     VISION & MISSION (Pure Black Supporting Facts, Red Block Headings)
      ========================================================================== -->
-<section class="section" id="vision-mission">
+<section class="section" style="padding: 1.5rem 0; background: #FAFAFA; border-top: 1px solid #E5E7EB; border-bottom: 1px solid #E5E7EB;">
     <div class="container">
         <div class="grid-2col">
             <!-- Vision -->
-            <div class="feature-card" style="border-top: 3px solid var(--primary);">
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
-                    <span class="badge badge-primary">Our Vision</span>
-                    <span style="font-size: 0.725rem; font-weight: 700; color: var(--text-muted);">All Systems &bull; All Generations</span>
-                </div>
-                <h2 style="font-size: 1.35rem; color: var(--text-main); margin-bottom: 0.75rem; font-family: var(--font-display); font-weight: 800;">
-                    Regenerative Flourishing Across All Systems &amp; Commons
-                </h2>
-                <p style="color: var(--text-body); font-size: 0.92rem; line-height: 1.7; margin-bottom: 0.85rem;">
-                    Peace-led stewardship that fosters the flourishing and regeneration of interconnected systems—human and non-human—across societies, ecosystems, planetary boundaries, the shared global commons, and outer space as part of our broader cosmic commons.
+            <div style="background: #FFFFFF; border: 1px solid #E5E7EB; padding: 1.75rem; box-shadow: 0 1px 4px rgba(0,0,0,0.04);">
+                <span class="red-block-heading">Our Vision</span>
+                <p class="supporting-fact-text" style="margin-top: 0.5rem;">
+                    Peace-led stewardship that fosters the flourishing and regeneration of interconnected systems &mdash; human and non-human &mdash; across societies, ecosystems, planetary boundaries, the shared global commons, and outer space as part of our broader cosmic commons.
                 </p>
-                <p style="color: var(--text-muted); font-size: 0.85rem; line-height: 1.6; border-top: 1px solid var(--border-subtle); padding-top: 0.75rem;">
-                    Guided by peace, ethical stewardship, faith traditions, Indigenous wisdom, scientific knowledge, and respect for human dignity across all life.
+                <p class="supporting-fact-text">
+                    The Forum envisions a peaceful and regenerative future in which human societies, biodiversity, ecosystems, and planetary systems flourish together, guided by peace, ethical stewardship, faith traditions, Indigenous wisdom, scientific knowledge, innovation, and respect for human dignity.
                 </p>
             </div>
 
             <!-- Mission -->
-            <div class="feature-card" style="border-top: 3px solid #111827;">
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
-                    <span class="badge badge-gold">Our Mission</span>
-                    <span style="font-size: 0.725rem; font-weight: 700; color: var(--text-muted);">Governance &bull; Polycrisis</span>
-                </div>
-                <h2 style="font-size: 1.35rem; color: var(--text-main); margin-bottom: 0.75rem; font-family: var(--font-display); font-weight: 800;">
-                    Advancing Interconnected Systemic Governance
-                </h2>
-                <p style="color: var(--text-body); font-size: 0.92rem; line-height: 1.7; margin-bottom: 0.85rem;">
-                    Advancing peace-led, faith- and Indigenous-inspired, climate-friendly, and regenerative approaches to sustainability and governance in response to the interconnected challenges of the global polycrisis.
+            <div style="background: #FFFFFF; border: 1px solid #E5E7EB; padding: 1.75rem; box-shadow: 0 1px 4px rgba(0,0,0,0.04);">
+                <span class="red-block-heading">Our Mission</span>
+                <p class="supporting-fact-text" style="margin-top: 0.5rem;">
+                    The Peace-Led Climate-Friendly Sustainable Development Forum advances peace-led, faith- and Indigenous-inspired, climate-friendly, and regenerative approaches to sustainability and governance in response to the interconnected challenges of the global polycrisis.
                 </p>
-                <p style="color: var(--text-muted); font-size: 0.85rem; line-height: 1.6; border-top: 1px solid var(--border-subtle); padding-top: 0.75rem;">
-                    Through high-level dialogue, entity partnerships, policy architecture, and financial innovation, PCSDF strengthens resilience across environmental, social, economic, technological, cultural, and digital systems.
+                <p class="supporting-fact-text">
+                    Through dialogue, knowledge exchange, partnerships, policy innovation, and financial innovation, the Forum promotes systems thinking and international cooperation that strengthen resilience, regeneration, and stewardship across environmental, social, economic, governance, technological, cultural, digital, and ecological systems.
                 </p>
-            </div>
-        </div>
-
-        <!-- Founder Quote Card -->
-        <div class="quote-highlight" style="margin-top: 2rem;">
-            <p style="font-size: 0.95rem; line-height: 1.7; color: var(--text-main); font-style: italic; margin-bottom: 0.5rem;">
-                “Our framework is more than a model—it is a living covenant for humanity and all life: peace-led in spirit, faith- and Indigenous-inspired in wisdom, climate-friendly in action, regenerative in purpose, and intergenerational in responsibility. By integrating all systems—human, ecological, economic, digital, planetary, and beyond—it lights a path where ancient knowledge and future innovation unite for a just, thriving, and shared destiny.”
-            </p>
-            <div style="font-size: 0.825rem; font-weight: 800; color: var(--primary);">
-                — Chaitri (Chai) N. Hapugalle, Founder &amp; Architect of PFICF-RSSDF
             </div>
         </div>
     </div>
 </section>
 
 <!-- ==========================================================================
-     JEAN AYOUB SPOTLIGHT SECTION — RESOLVING FONTCOLOR ISSUE
+     SECTION 1: Board of Directors
      ========================================================================== -->
-<section class="section section-alt" id="ayoub">
+<section class="section" id="board" style="padding: 2.75rem 0; background: #FFFFFF;">
     <div class="container">
-        <div class="spotlight-card" style="margin: 0;">
-            <div style="text-align: center;">
-                <div class="person-photo-frame" style="width: 100px; height: 100px; margin: 0 auto 1rem auto;">
-                    <img src="<?= BASE_URL ?>/assets/images/people/IMG_2132.jpeg" alt="Jean Ayoub" class="person-photo-img" onerror="this.onerror=null; this.src='<?= BASE_URL ?>/assets/images/pcsdf-logo.jpg';">
-                </div>
-                <span class="badge badge-primary" style="margin-bottom: 0.35rem;">Patron &amp; Senior Advisor</span>
-                <h3 style="font-size: 1.35rem; color: var(--text-main); margin-bottom: 0.2rem; font-family: var(--font-display); font-weight: 800;">
-                    Jean Ayoub
-                </h3>
-                <p style="font-size: 0.8rem; color: var(--primary); font-weight: 700; margin-bottom: 0.85rem;">Geneva, Switzerland</p>
-                <div>
-                    <a href="https://ch.linkedin.com/in/jeanayoub" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
-                        LinkedIn Profile &rarr;
-                    </a>
-                </div>
-            </div>
-
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem; border-bottom: 2px solid #E5E7EB; padding-bottom: 1rem;">
             <div>
-                <span class="badge badge-gold" style="margin-bottom: 0.5rem; font-size: 0.68rem;">Foundational Diplomatic Pillar</span>
-                <h2 style="font-size: 1.45rem; color: var(--text-main); margin-bottom: 0.85rem; font-family: var(--font-display); font-weight: 800;">
-                    Jean Ayoub — Foundational Contribution &amp; Diplomatic Stewardship
-                </h2>
-                <p style="color: var(--text-body); font-size: 0.95rem; line-height: 1.75; margin-bottom: 0.85rem;">
-                    Jean Ayoub’s elevation recognises his foundational contribution to PCSDF and his distinguished international diplomatic leadership. During his <strong>17 years heading International Social Service (ISS)</strong>, Jean stewarded a global network extending across 120+ countries defending child rights, cross-border social justice, and humanitarian law.
-                </p>
-                <p style="color: var(--text-body); font-size: 0.92rem; line-height: 1.75; margin-bottom: 0.5rem;">
-                    As Senior Advisor, Jean guides multilateral institutional governance, linking PCSDF’s constitutional framework to global diplomatic missions, multilateral bodies, and international humanitarian forums.
+                <span class="red-block-heading">1. Board of Directors</span>
+                <p class="supporting-fact-text" style="margin-bottom: 0;">
+                    Governing PCSDF's constitutional roadmap, institutional oversight, and strategic development.
                 </p>
             </div>
-        </div>
-    </div>
-</section>
-
-<!-- ==========================================================================
-     HEADING 1: Patrons and Senior Advisors
-     ========================================================================== -->
-<section class="section" id="patrons">
-    <div class="container">
-        <div class="text-center" style="margin-bottom: 2.25rem;">
-            <span class="badge badge-primary">Multilateral Wisdom</span>
-            <h2 class="section-title">Patrons and Senior Advisors</h2>
-            <p class="section-subtitle">
-                Eminent diplomats, former heads of international bodies, economists, and ethical leaders guiding PCSDF’s intergenerational mission.
-            </p>
+            <div>
+                <a href="https://www.facebook.com/share/p/19fiPta3M2/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                    View Board on Facebook Network &nearr;
+                </a>
+            </div>
         </div>
 
-        <div class="team-grid">
-            <?php foreach ($patrons as $p): ?>
-                <div class="team-card">
-                    <div class="person-photo-frame">
-                        <?php if (!empty($p['image']) && file_exists(__DIR__ . '/' . $p['image'])): ?>
-                            <img src="<?= BASE_URL ?>/<?= htmlspecialchars($p['image']) ?>" alt="<?= htmlspecialchars($p['name']) ?>" class="person-photo-img">
-                        <?php else: ?>
-                            <div class="team-avatar-placeholder">
-                                <?= strtoupper(substr($p['name'], 0, 1)) . (strpos($p['name'], ' ') !== false ? strtoupper(substr(explode(' ', $p['name'])[1], 0, 1)) : '') ?>
-                            </div>
-                        <?php endif; ?>
+        <?php
+        $board_members = [
+            ['name' => 'Chaitri N. Hapugalle', 'role' => 'Founder & Board Director', 'note' => 'Architect of the PFICF-RSSDF framework. Leading planetary intergenerational stewardship.'],
+            ['name' => 'Saji Prelis', 'role' => 'Board Director', 'note' => 'International leader in youth peacebuilding, violent conflict mitigation, and civic transformation.'],
+            ['name' => 'Paul Fraser Turner', 'role' => 'Board Director', 'note' => 'Senior strategist with The Fund for Peace (FFP). Expert in fragile states indices and human security.'],
+            ['name' => 'Christoph Klein', 'role' => 'Board Director', 'note' => 'Managing Partner at ESG Portfolio Management. Pioneer in regenerative finance and green bonds.'],
+            ['name' => 'Thomas Wuchte', 'role' => 'Board Director', 'note' => 'Executive Director of the Center for Multilateral Leadership. Veteran international diplomat.']
+        ];
+        ?>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.25rem;">
+            <?php foreach ($board_members as $idx => $m): ?>
+                <div style="background: #FFFFFF; border: 1px solid #E5E7EB; border-left: 3px solid #B91C1C; padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.04);">
+                    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
+                        <span style="font-size: 0.7rem; font-weight: 800; color: #B91C1C; text-transform: uppercase;">Director #0<?= $idx + 1 ?></span>
+                        <span style="font-size: 0.72rem; color: #6B7280; font-weight: 600;">Verified Member</span>
                     </div>
-                    <?php if (!empty($p['is_featured'])): ?>
-                        <span class="badge badge-primary" style="margin-bottom: 0.35rem; align-self: flex-start; font-size: 0.65rem;">Foundational Patron</span>
-                    <?php endif; ?>
-                    <h3 class="team-name"><?= htmlspecialchars($p['name']) ?></h3>
-                    <div class="team-role"><?= htmlspecialchars($p['title_role']) ?></div>
-                    <p class="team-bio"><?= htmlspecialchars($p['bio'] ?? '') ?></p>
-                    <div class="team-card-footer">
-                        <?php if (!empty($p['linkedin']) && $p['linkedin'] !== '#'): ?>
-                            <a href="<?= htmlspecialchars($p['linkedin']) ?>" target="_blank" rel="noopener noreferrer" class="person-linkedin-btn">
-                                LinkedIn Profile &rarr;
-                            </a>
-                        <?php else: ?>
-                            <span style="font-size: 0.75rem; color: var(--text-muted); font-weight: 600;">Distinguished Record</span>
-                        <?php endif; ?>
+                    <h3 style="font-size: 1.15rem; color: #000000; font-weight: 800; font-family: var(--font-display); margin-bottom: 0.25rem;">
+                        <?= htmlspecialchars($m['name']) ?>
+                    </h3>
+                    <div style="font-size: 0.8rem; font-weight: 700; color: #B91C1C; margin-bottom: 0.5rem;">
+                        <?= htmlspecialchars($m['role']) ?>
                     </div>
-                </div>
-            <?php endforeach; ?>
-        </div>
-    </div>
-</section>
-
-<!-- ==========================================================================
-     HEADING 2: Board Members
-     ========================================================================== -->
-<section class="section section-alt" id="board-members">
-    <div class="container">
-        <div class="text-center" style="margin-bottom: 2.25rem;">
-            <span class="badge badge-primary">Fiduciary &amp; Constitutional Oversight</span>
-            <h2 class="section-title">Board Members</h2>
-            <p class="section-subtitle">
-                Governing PCSDF’s constitutional architecture, institutional roadmap, and fiduciary integrity.
-            </p>
-        </div>
-
-        <div class="team-grid">
-            <?php foreach ($board as $member): ?>
-                <div class="team-card">
-                    <div class="person-photo-frame">
-                        <?php if (!empty($member['image']) && file_exists(__DIR__ . '/' . $member['image'])): ?>
-                            <img src="<?= BASE_URL ?>/<?= htmlspecialchars($member['image']) ?>" alt="<?= htmlspecialchars($member['name']) ?>" class="person-photo-img">
-                        <?php else: ?>
-                            <div class="team-avatar-placeholder">
-                                <?= strtoupper(substr($member['name'], 0, 1)) . (strpos($member['name'], ' ') !== false ? strtoupper(substr(explode(' ', $member['name'])[1], 0, 1)) : '') ?>
-                            </div>
-                        <?php endif; ?>
-                    </div>
-                    <h3 class="team-name"><?= htmlspecialchars($member['name']) ?></h3>
-                    <div class="team-role"><?= htmlspecialchars($member['role']) ?></div>
-                    <p class="team-bio"><?= htmlspecialchars($member['bio'] ?? '') ?></p>
-                    <div class="team-card-footer">
-                        <a href="<?= htmlspecialchars($member['linkedin'] ?? URL_FACEBOOK) ?>" target="_blank" rel="noopener noreferrer" class="person-linkedin-btn">
-                            LinkedIn Profile &rarr;
+                    <p class="supporting-fact-text" style="font-size: 0.85rem; line-height: 1.6; margin-bottom: 0.85rem;">
+                        <?= htmlspecialchars($m['note']) ?>
+                    </p>
+                    <div style="border-top: 1px solid #F3F4F6; padding-top: 0.5rem;">
+                        <a href="https://www.facebook.com/share/p/19fiPta3M2/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" style="font-size: 0.75rem; font-weight: 700; color: #B91C1C;">
+                            Facebook Dossier &rarr;
                         </a>
                     </div>
                 </div>
@@ -207,140 +119,178 @@ $partners = getEntityPartners();
 </section>
 
 <!-- ==========================================================================
-     HEADING 3: Entity partners and focal pints
+     SECTION 2: Distinguished Patrons
      ========================================================================== -->
-<section class="section" id="entity-partners">
+<section class="section" id="patrons" style="padding: 2.75rem 0; background: #FAFAFA; border-top: 1px solid #E5E7EB; border-bottom: 1px solid #E5E7EB;">
     <div class="container">
-        <div class="text-center" style="margin-bottom: 2.25rem;">
-            <span class="badge badge-primary">Global Coalitions</span>
-            <h2 class="section-title">Entity partners and focal pints</h2>
-            <p class="section-subtitle">
-                Official institutional partners, think tanks, UN NGOs, feminist alliances, and research foundations collaborating with PCSDF.
-            </p>
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem; border-bottom: 2px solid #E5E7EB; padding-bottom: 1rem;">
+            <div>
+                <span class="red-block-heading">2. Distinguished Patrons</span>
+                <p class="supporting-fact-text" style="margin-bottom: 0;">
+                    Diplomats, economists, scientists, and moral authorities stewarding PCSDF’s intergenerational covenant.
+                </p>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/share/p/1CGix7ETom/?mibextid=wwXIf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                    View Patrons on Facebook Network &nearr;
+                </a>
+            </div>
         </div>
 
-        <div class="partners-grid">
-            <?php foreach ($partners as $partner): ?>
-                <div class="partner-card">
-                    <div class="partner-logo-frame">
-                        <?php if (!empty($partner['logo']) && file_exists(__DIR__ . '/' . $partner['logo'])): ?>
-                            <img src="<?= BASE_URL ?>/<?= htmlspecialchars($partner['logo']) ?>" alt="<?= htmlspecialchars($partner['name']) ?>" class="partner-logo-img">
-                        <?php else: ?>
-                            <div class="partner-avatar-placeholder">
-                                <?= strtoupper(substr($partner['name'], 0, 2)) ?>
-                            </div>
-                        <?php endif; ?>
-                    </div>
-                    
-                    <span class="partner-category"><?= htmlspecialchars($partner['category']) ?></span>
-                    <h3 class="partner-name"><?= htmlspecialchars($partner['name']) ?></h3>
-                    
-                    <div class="focal-point-box">
-                        <div class="focal-point-label">Official Focal Point</div>
-                        <div class="focal-point-name"><?= htmlspecialchars($partner['focal_point']) ?></div>
-                    </div>
+        <?php
+        $patrons_list = [
+            ['name' => 'Otaviano Canuto', 'title' => 'Patron and Senior Advisor', 'bio' => 'Former Vice President and Executive Director at the World Bank; Senior Fellow at Policy Center for the New South.'],
+            ['name' => 'Katherine Marshall', 'title' => 'Patron and Senior Advisor', 'bio' => 'Senior Fellow at Georgetown University Berkley Center; international expert on faith, ethics, and world development.'],
+            ['name' => 'Dr. Frannie Léautier', 'title' => 'Patron and Senior Advisor', 'bio' => 'CEO of SouthBridge Investments; former Senior VP at African Development Bank; former Vice President at World Bank.'],
+            ['name' => 'Dr. Azza Karam', 'title' => 'Patron and Senior Advisor', 'bio' => 'President & CEO of Lead Integrity; former Secretary General of Religions for Peace; expert on multilateralism.'],
+            ['name' => 'Honourable Prasad Kariyawasam', 'title' => 'Patron and Senior Advisor', 'bio' => 'Former Foreign Secretary of Sri Lanka; former Ambassador to the United States and High Commissioner to India.'],
+            ['name' => 'Honourable Mohieddine Ben Jemaa', 'title' => 'Patron and Senior Advisor', 'bio' => 'Eminent diplomat, multilateral negotiator, and champion of sustainable regional governance.'],
+            ['name' => 'Jean Ayoub', 'title' => 'Patron and Senior Advisor', 'bio' => 'Recognised for foundational contribution to PCSDF; 17 years Secretary-General & CEO of International Social Service (ISS).'],
+            ['name' => 'Dr. Juha Uitto', 'title' => 'Patron and Senior Advisor', 'bio' => 'Former Director of the Independent Evaluation Office of the Global Environment Facility (GEF).'],
+            ['name' => 'Claire Hutchinson', 'title' => 'Patron and Senior Advisor', 'bio' => 'Former NATO Secretary General’s Special Representative for Women, Peace and Security.'],
+            ['name' => 'Sanjay Rathee', 'title' => 'Patron and Senior Advisor', 'bio' => 'Space Development Nexus (SDNx); global leader in space technology access, orbital governance, and youth STEM.'],
+            ['name' => 'Gabe Gabrielle', 'title' => 'Patron and Senior Advisor', 'bio' => 'Former NASA Engineer, Director, and inspirational global speaker on STEM and planetary stewardship.']
+        ];
+        ?>
 
-                    <?php if (!empty($partner['description'])): ?>
-                        <p class="partner-desc"><?= htmlspecialchars($partner['description']) ?></p>
-                    <?php endif; ?>
-
-                    <div style="margin-top: auto; padding-top: 0.75rem; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-                        <span style="font-size: 0.72rem; color: var(--text-muted); font-weight: 600;">Status: Active Entity</span>
-                        <a href="<?= BASE_URL ?>/network.php#partner-<?= $partner['id'] ?>" style="font-size: 0.75rem; font-weight: 700; color: var(--primary);">
-                            Full Dossier &rarr;
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.25rem;">
+            <?php foreach ($patrons_list as $idx => $p): ?>
+                <div style="background: #FFFFFF; border: 1px solid #E5E7EB; border-left: 3px solid #B91C1C; padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.04);">
+                    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.5rem;">
+                        <span style="font-size: 0.7rem; font-weight: 800; color: #B91C1C; text-transform: uppercase;">Patron #<?= sprintf('%02d', $idx + 1) ?></span>
+                        <span style="font-size: 0.72rem; color: #6B7280; font-weight: 600;">Global Leadership</span>
+                    </div>
+                    <h3 style="font-size: 1.15rem; color: #000000; font-weight: 800; font-family: var(--font-display); margin-bottom: 0.25rem;">
+                        <?= htmlspecialchars($p['name']) ?>
+                    </h3>
+                    <div style="font-size: 0.8rem; font-weight: 700; color: #B91C1C; margin-bottom: 0.5rem;">
+                        <?= htmlspecialchars($p['title']) ?>
+                    </div>
+                    <p class="supporting-fact-text" style="font-size: 0.85rem; line-height: 1.6; margin-bottom: 0.85rem;">
+                        <?= htmlspecialchars($p['bio']) ?>
+                    </p>
+                    <div style="border-top: 1px solid #F3F4F6; padding-top: 0.5rem;">
+                        <a href="https://www.facebook.com/share/p/1CGix7ETom/?mibextid=wwXIf" target="_blank" rel="noopener noreferrer" style="font-size: 0.75rem; font-weight: 700; color: #B91C1C;">
+                            Facebook Dossier &rarr;
                         </a>
                     </div>
                 </div>
             <?php endforeach; ?>
         </div>
+    </div>
+</section>
 
-        <div class="text-center" style="margin-top: 2rem;">
-            <a href="<?= BASE_URL ?>/network.php" class="btn btn-outline btn-sm">
-                View Full Entity Partners &amp; Focal Points Directory &rarr;
-            </a>
+<!-- ==========================================================================
+     SECTION 3: Jean Ayoub — Patron and Senior Advisor
+     ========================================================================== -->
+<section class="section" id="ayoub" style="padding: 2.75rem 0; background: #FFFFFF;">
+    <div class="container">
+        <div style="background: #FFFFFF; border: 1px solid #E5E7EB; border-top: 3px solid #B91C1C; padding: 2.25rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+            <div style="margin-bottom: 1rem;">
+                <span class="red-block-heading">3. Jean Ayoub &mdash; Patron and Senior Advisor</span>
+            </div>
+            
+            <h3 style="font-size: 1.35rem; color: #000000; font-weight: 800; font-family: var(--font-display); margin-bottom: 0.75rem;">
+                Jean Ayoub &mdash; Professional Profile &amp; Foundational Role
+            </h3>
+
+            <p class="supporting-fact-text" style="font-size: 1rem; line-height: 1.75; margin-bottom: 1.25rem;">
+                Jean’s elevation recognises his foundational contribution to PCSDF and his distinguished international experience, including his <strong>17 years as Secretary-General and CEO of International Social Service (ISS)</strong>, whose global network extended across more than 120 countries defending child rights, cross-border social justice, and humanitarian law.
+            </p>
+
+            <p class="supporting-fact-text" style="font-size: 0.95rem; line-height: 1.7; margin-bottom: 1.5rem;">
+                As Senior Advisor, Jean guides multilateral institutional governance, linking PCSDF’s constitutional framework to global diplomatic missions, multilateral bodies, and international humanitarian forums.
+            </p>
+
+            <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+                <a href="https://ch.linkedin.com/in/jeanayoub" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                    View LinkedIn Profile &nearr;
+                </a>
+                <a href="https://www.facebook.com/share/p/1KN3R4atEx/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                    View Facebook Elevation Record &nearr;
+                </a>
+            </div>
         </div>
     </div>
 </section>
 
 <!-- ==========================================================================
-     HEADING 4: Advisors
+     SECTION 4: Entity Partners, Focal Points and Advisors
      ========================================================================== -->
-<section class="section section-alt" id="advisors">
+<section class="section" id="partners" style="padding: 2.75rem 0; background: #FAFAFA; border-top: 1px solid #E5E7EB;">
     <div class="container">
-        <div class="text-center" style="margin-bottom: 2.25rem;">
-            <span class="badge badge-primary">Technical &amp; Subject Matter Expertise</span>
-            <h2 class="section-title">Advisors</h2>
-            <p class="section-subtitle">
-                Technical specialists, scholars, and practitioners contributing deep subject matter knowledge across the 30 framework systems.
-            </p>
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem; border-bottom: 2px solid #E5E7EB; padding-bottom: 1rem;">
+            <div>
+                <span class="red-block-heading">4. Entity partners, focal points and advisors</span>
+                <p class="supporting-fact-text" style="margin-bottom: 0; max-width: 820px;">
+                    Our growing international network brings together organisations and institutional collaborators committed to peacebuilding, sustainable development, humanitarian cooperation, climate action, governance, research, innovation and the regeneration of interconnected systems.
+                </p>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/share/p/1czKqS3zu4/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                    View Entity Partners on Facebook Network &nearr;
+                </a>
+            </div>
         </div>
 
-        <div class="team-grid">
-            <?php foreach ($advisors as $adv): ?>
-                <div class="team-card">
-                    <div class="person-photo-frame">
-                        <?php if (!empty($adv['image']) && file_exists(__DIR__ . '/' . $adv['image'])): ?>
-                            <img src="<?= BASE_URL ?>/<?= htmlspecialchars($adv['image']) ?>" alt="<?= htmlspecialchars($adv['name']) ?>" class="person-photo-img">
-                        <?php else: ?>
-                            <div class="team-avatar-placeholder">
-                                <?= strtoupper(substr($adv['name'], 0, 1)) . (strpos($adv['name'], ' ') !== false ? strtoupper(substr(explode(' ', $adv['name'])[1], 0, 1)) : '') ?>
-                            </div>
-                        <?php endif; ?>
+        <?php
+        $official_entities = [
+            ['id' => 1, 'name' => 'Unify Platform AG', 'focal' => 'Dr. Takahisa Karita'],
+            ['id' => 2, 'name' => 'The Fund for Peace (FFP)', 'focal' => 'Paul Fraser Turner'],
+            ['id' => 3, 'name' => 'NGO Committee for Disarmament, Peace and Security', 'focal' => 'Bruce Knotts'],
+            ['id' => 4, 'name' => '195 in 265', 'focal' => 'Johann Hoschtialek'],
+            ['id' => 5, 'name' => 'ESG Portfolio Management', 'focal' => 'Christoph Klein'],
+            ['id' => 6, 'name' => 'Arab Civil Society and Feminist Network', 'focal' => 'Fatemah Khafagy'],
+            ['id' => 7, 'name' => 'Center for Multilateral Leadership', 'focal' => 'Thomas Wuchte'],
+            ['id' => 8, 'name' => 'Local Youth Corner, Cameroon', 'focal' => 'Achaleke Christian Leke'],
+            ['id' => 9, 'name' => 'Women Are Change Agents', 'focal' => 'Fatemah Khafagy'],
+            ['id' => 10, 'name' => 'All India Sustainable Development Council', 'focal' => 'Lt. General Shokin Chauhan; Vigil Kanethra'],
+            ['id' => 11, 'name' => 'Global Sustainable Development Council', 'focal' => 'Lt. General Shokin Chauhan; Vigil Kanethra'],
+            ['id' => 12, 'name' => 'Energy for One World', 'focal' => 'Adriaan Kamp'],
+            ['id' => 13, 'name' => 'Royal Chera Dynasty and Family', 'focal' => 'Vigil Kanethra'],
+            ['id' => 14, 'name' => 'SUNWay Research and Innovation Center', 'focal' => 'Pradeep Sapkota'],
+            ['id' => 15, 'name' => 'Space Development Nexus (SDNx)', 'focal' => 'Sanjay Rathee'],
+            ['id' => 16, 'name' => 'Pilot International', 'focal' => 'Honourable Robinah Nanyunja'],
+            ['id' => 17, 'name' => 'Women Entrepreneurship Forum Africa', 'focal' => 'Honourable Robinah Nanyunja'],
+            ['id' => 18, 'name' => 'Youth Entrepreneurship Forum Africa', 'focal' => 'Honourable Robinah Nanyunja'],
+            ['id' => 19, 'name' => 'Munir Mezyed Foundation', 'focal' => 'Munir Mezyed'],
+            ['id' => 20, 'name' => 'Vigil Floating City', 'focal' => 'Vigil Kanethra'],
+            ['id' => 21, 'name' => 'Vigil cruisevoy', 'focal' => 'Vigil Kanethra'],
+            ['id' => 22, 'name' => 'World Peace Board', 'focal' => 'Lt. General Shokin Chauhan; Vigil Kanethra']
+        ];
+        ?>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.25rem;">
+            <?php foreach ($official_entities as $ent): ?>
+                <div style="background: #FFFFFF; border: 1px solid #E5E7EB; border-left: 3px solid #B91C1C; padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.04);">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
+                        <span style="font-size: 0.72rem; font-weight: 800; color: #B91C1C;">Entity #<?= sprintf('%02d', $ent['id']) ?></span>
+                        <span style="font-size: 0.7rem; color: #6B7280; font-weight: 600;">Active Partner</span>
                     </div>
-                    <h3 class="team-name"><?= htmlspecialchars($adv['name']) ?></h3>
-                    <div class="team-role"><?= htmlspecialchars($adv['title_role']) ?></div>
-                    <p class="team-bio"><?= htmlspecialchars($adv['bio'] ?? '') ?></p>
-                    <div class="team-card-footer">
-                        <?php if (!empty($adv['linkedin']) && $adv['linkedin'] !== '#'): ?>
-                            <a href="<?= htmlspecialchars($adv['linkedin']) ?>" target="_blank" rel="noopener noreferrer" class="person-linkedin-btn">
-                                LinkedIn Profile &rarr;
-                            </a>
-                        <?php else: ?>
-                            <a href="<?= BASE_URL ?>/contact.php" class="person-linkedin-btn">
-                                Inquire / Connect &rarr;
-                            </a>
-                        <?php endif; ?>
+
+                    <h3 style="font-size: 1.05rem; font-weight: 800; color: #000000; font-family: var(--font-display); margin-bottom: 0.65rem; line-height: 1.35;">
+                        <?= htmlspecialchars($ent['name']) ?>
+                    </h3>
+
+                    <div style="background: #F9FAFB; border: 1px solid #E5E7EB; border-left: 2px solid #B91C1C; padding: 0.45rem 0.65rem; margin-bottom: 0.75rem;">
+                        <div style="font-size: 0.68rem; text-transform: uppercase; font-weight: 800; color: #B91C1C; letter-spacing: 0.05em;">
+                            Designated Focal Point
+                        </div>
+                        <div style="font-size: 0.85rem; font-weight: 700; color: #000000;">
+                            <?= htmlspecialchars($ent['focal']) ?>
+                        </div>
+                    </div>
+
+                    <div style="border-top: 1px solid #F3F4F6; padding-top: 0.5rem; display: flex; justify-content: space-between; align-items: center;">
+                        <a href="https://www.facebook.com/share/p/1czKqS3zu4/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" style="font-size: 0.75rem; font-weight: 700; color: #B91C1C;">
+                            Facebook Network &rarr;
+                        </a>
+                        <a href="<?= BASE_URL ?>/contact.php?partner=<?= urlencode($ent['name']) ?>" style="font-size: 0.75rem; font-weight: 600; color: #374151;">
+                            Inquire &rarr;
+                        </a>
                     </div>
                 </div>
             <?php endforeach; ?>
-        </div>
-    </div>
-</section>
-
-<!-- ==========================================================================
-     HISTORIC MORAL ANTECEDENTS (Clean Red & Black)
-     ========================================================================== -->
-<section class="section">
-    <div class="container">
-        <div class="text-center" style="margin-bottom: 2rem;">
-            <span class="badge badge-gold">Historic Precedents</span>
-            <h2 class="section-title">Moral &amp; Institutional Antecedents</h2>
-        </div>
-
-        <div class="grid-2col">
-            <div class="feature-card" style="border-left: 3px solid var(--primary);">
-                <h4 style="font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--text-main); font-family: var(--font-display); font-weight: 800;">
-                    The Creation of the United Nations (1950)
-                </h4>
-                <p style="font-style: italic; color: var(--text-body); font-size: 0.9rem; line-height: 1.7; margin-bottom: 0.75rem;">
-                    “The United Nations was born out of an agony of war—the most terrible war in history. Those who drew up the charter really had less to do with the creation of the United Nations than the millions who fought and died in that war.”
-                </p>
-                <div style="font-size: 0.8rem; font-weight: 800; color: var(--primary);">
-                    — Harry S. Truman, Address to UN General Assembly
-                </div>
-            </div>
-
-            <div class="feature-card" style="border-left: 3px solid #111827;">
-                <h4 style="font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--text-main); font-family: var(--font-display); font-weight: 800;">
-                    Universal Declaration of Human Rights (1948)
-                </h4>
-                <p style="font-style: italic; color: var(--text-body); font-size: 0.9rem; line-height: 1.7; margin-bottom: 0.75rem;">
-                    “All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.”
-                </p>
-                <div style="font-size: 0.8rem; font-weight: 800; color: var(--primary);">
-                    — Article 1, Universal Declaration of Human Rights
-                </div>
-            </div>
         </div>
     </div>
 </section>
