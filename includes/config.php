@@ -10,11 +10,13 @@ define('SITE_SHORT_NAME', 'PCSDF');
 define('SITE_SLOGAN', 'Inspiring Peace-Led, Faith- and Indigenous-Inspired, Climate-Friendly Regeneration Across All Systems, All Life and All Generations');
 define('SITE_YEAR_THEME', 'Year of the Horse — Governing Sustainability in an Era of Polycrisis');
 
-// Organization Contact Details
-define('CONTACT_EMAIL', 'chaihapugalle@gmail.com');
-define('CONTACT_PHONE', '+65 8070 1667');
-define('CONTACT_WHATSAPP_NOTE', 'WhatsApp messages and calls only');
-define('CONTACT_ADDRESS', '60 Paya Lebar Road #06-28 Paya Lebar Square, Singapore 409051');
+// Organization Contact Details (Direct from pcsdf.org)
+define('CONTACT_EMAIL', 'chapugalle@pcsdf.org');
+define('CONTACT_EMAILS_ALL', 'chapugalle@pcsdf.org, chaihapugalle@gmail.com, tpcsdf@gmail.com');
+define('CONTACT_PHONE', '+65 9724 0021');
+define('CONTACT_WHATSAPP_NOTE', 'Direct calls and WhatsApp communication');
+define('CONTACT_ADDRESS', 'Keong Saik Road, Chinatown, Singapore');
+define('LEGAL_REGISTRATION', 'Registered in Singapore as a Company Limited by Guarantee (Incorporated 24 December 2021)');
 define('FOUNDER_NAME', 'Chaitri (Chai) N. Hapugalle');
 
 // Database Configuration (Default XAMPP credentials)

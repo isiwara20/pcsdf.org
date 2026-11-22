@@ -52,11 +52,25 @@ if (!isset($page_title)) {
 <!-- Top Scroll Progress Indicator -->
 <div class="scroll-progress-bar" id="scrollProgressBar" aria-hidden="true"></div>
 
-<!-- Floating Capsule Header -->
+<!-- Top Institutional Utility Bar -->
+<div class="top-status-bar">
+    <div class="container top-status-inner">
+        <div class="status-left">
+            <span class="status-reg-badge">Singapore CLG</span>
+            <span class="status-incorporated">Incorporated 24 Dec 2021 &bull; Keong Saik Road, Chinatown, Singapore</span>
+        </div>
+        <div class="status-right">
+            <span class="year-horse-pill">&bull;&nbsp;Year of the Horse &mdash; Inspiring Regeneration</span>
+            <a href="https://pcsdf.org" target="_blank" rel="noopener noreferrer" class="status-ext-link">Official Portal: pcsdf.org &nearr;</a>
+        </div>
+    </div>
+</div>
+
+<!-- Main Institutional Header (Red & Black Diplomatic Authority) -->
 <div class="header-wrapper">
     <header class="site-header">
-        <div class="header-inner">
-            <!-- Brand Logo Frame -->
+        <div class="container header-inner">
+            <!-- Brand Logo Frame (Sharp Rectangular - No curve!) -->
             <a href="<?= BASE_URL ?>/index.php" class="brand-wrapper" aria-label="PCSDF Home">
                 <div class="brand-logo-frame">
                     <img src="<?= BASE_URL ?>/assets/images/pcsdf-logo.jpg" alt="PCSDF Dove Logo" class="brand-logo-img">
@@ -70,21 +84,21 @@ if (!isset($page_title)) {
             <!-- Desktop Nav Menu -->
             <nav class="desktop-nav" aria-label="Main Navigation">
                 <a href="<?= BASE_URL ?>/index.php" class="nav-link <?= ($current_page == 'index.php') ? 'active' : '' ?>">Home</a>
-                <a href="<?= BASE_URL ?>/about.php" class="nav-link <?= ($current_page == 'about.php') ? 'active' : '' ?>">About &amp; Patrons</a>
-                <a href="<?= BASE_URL ?>/framework.php" class="nav-link <?= ($current_page == 'framework.php') ? 'active' : '' ?>">PFICF-RSSDF</a>
-                <a href="<?= BASE_URL ?>/network.php" class="nav-link <?= ($current_page == 'network.php') ? 'active' : '' ?>">22 Partners</a>
+                <a href="<?= BASE_URL ?>/about.php" class="nav-link <?= ($current_page == 'about.php') ? 'active' : '' ?>">Leadership &amp; Governance</a>
+                <a href="<?= BASE_URL ?>/framework.php" class="nav-link <?= ($current_page == 'framework.php') ? 'active' : '' ?>">Framework</a>
+                <a href="<?= BASE_URL ?>/network.php" class="nav-link <?= ($current_page == 'network.php') ? 'active' : '' ?>">Entity Partners</a>
                 <a href="<?= BASE_URL ?>/peace-tracker.php" class="nav-link <?= ($current_page == 'peace-tracker.php') ? 'active' : '' ?>">Peace Tracker</a>
-                <a href="<?= BASE_URL ?>/poems.php" class="nav-link <?= ($current_page == 'poems.php') ? 'active' : '' ?>">Poems</a>
+                <a href="<?= BASE_URL ?>/poems.php" class="nav-link <?= ($current_page == 'poems.php') ? 'active' : '' ?>">Poems &amp; Inspiration</a>
                 <a href="<?= BASE_URL ?>/contact.php" class="nav-link <?= ($current_page == 'contact.php') ? 'active' : '' ?>">Contact</a>
 
-                <!-- 2 Distinct Theme Buttons on Larger Screens (Light & Dark) -->
+                <!-- 2 Distinct Theme Buttons (Light & Dark) -->
                 <div class="theme-segmented-switch" role="group" aria-label="Theme Mode Selection">
                     <button type="button" class="theme-segment-btn" data-theme-val="light" title="Switch to Light Theme">&#9728; Light</button>
                     <button type="button" class="theme-segment-btn" data-theme-val="dark" title="Switch to Dark Theme">&#9790; Dark</button>
                 </div>
 
                 <a href="<?= BASE_URL ?>/contact.php" class="btn btn-primary btn-sm">
-                    Partner &rarr;
+                    Inquire / Partner &rarr;
                 </a>
             </nav>
 
@@ -106,9 +120,9 @@ if (!isset($page_title)) {
     <!-- Mobile Drawer Overlay -->
     <div class="mobile-nav-drawer" id="mobileNavDrawer">
         <a href="<?= BASE_URL ?>/index.php" class="nav-link <?= ($current_page == 'index.php') ? 'active' : '' ?>">Home</a>
-        <a href="<?= BASE_URL ?>/about.php" class="nav-link <?= ($current_page == 'about.php') ? 'active' : '' ?>">About Us &amp; Patrons</a>
+        <a href="<?= BASE_URL ?>/about.php" class="nav-link <?= ($current_page == 'about.php') ? 'active' : '' ?>">Leadership &amp; Governance</a>
         <a href="<?= BASE_URL ?>/framework.php" class="nav-link <?= ($current_page == 'framework.php') ? 'active' : '' ?>">PFICF-RSSDF Framework</a>
-        <a href="<?= BASE_URL ?>/network.php" class="nav-link <?= ($current_page == 'network.php') ? 'active' : '' ?>">22 Entity Partners</a>
+        <a href="<?= BASE_URL ?>/network.php" class="nav-link <?= ($current_page == 'network.php') ? 'active' : '' ?>">Entity Partners &amp; Focal Points</a>
         <a href="<?= BASE_URL ?>/peace-tracker.php" class="nav-link <?= ($current_page == 'peace-tracker.php') ? 'active' : '' ?>">Peace &amp; Conflict Tracker</a>
         <a href="<?= BASE_URL ?>/poems.php" class="nav-link <?= ($current_page == 'poems.php') ? 'active' : '' ?>">Poems &amp; Reflections</a>
         <a href="<?= BASE_URL ?>/contact.php" class="nav-link <?= ($current_page == 'contact.php') ? 'active' : '' ?>">Contact Us</a>
@@ -125,8 +139,8 @@ if (!isset($page_title)) {
             </div>
         </div>
 
-        <div style="padding-top: 0.5rem;">
-            <a href="<?= BASE_URL ?>/contact.php" class="btn btn-primary" style="width: 100%;">Start a Project / Partner</a>
+        <div style="padding-top: 0.75rem;">
+            <a href="<?= BASE_URL ?>/contact.php" class="btn btn-primary" style="width: 100%;">Inquire / Start a Project</a>
         </div>
     </div>
 </div>

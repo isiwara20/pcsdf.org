@@ -30,7 +30,7 @@ require_once __DIR__ . '/includes/header.php';
 
             <h3 style="color: var(--text-main); font-size: 1.05rem; margin-bottom: 0.5rem;">4. Contacting Our Data Protection Officer</h3>
             <p style="margin-bottom: 0;">
-                If you have questions about our privacy policies or wish to access, update, or remove your contact data, please contact the Secretariat at <a href="mailto:chaihapugalle@gmail.com" style="color: var(--primary);">chaihapugalle@gmail.com</a>.
+                If you have questions about our privacy policies or wish to access, update, or remove your contact data, please contact PCSDF Headquarters at <a href="mailto:chaihapugalle@gmail.com" style="color: var(--primary);">chaihapugalle@gmail.com</a>.
             </p>
         </div>
     </div>

@@ -1,5 +1,5 @@
 <?php
-$page_title = "Contact Us & Start a Project";
+$page_title = "Contact Us & Join the Movement";
 require_once __DIR__ . '/includes/header.php';
 
 $success_msg = null;
@@ -28,79 +28,84 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         ];
 
         if (saveInquiry($data)) {
-            $success_msg = "Thank you! Your message and project inquiry have been received by the PCSDF Secretariat. We will respond promptly.";
+            $success_msg = "Thank you! Your message and project inquiry have been received by the PCSDF leadership team. We will respond as soon as possible.";
         } else {
-            $error_msg = "An error occurred while saving your inquiry. Please reach out directly to chaihapugalle@gmail.com.";
+            $error_msg = "An error occurred while saving your inquiry. Please reach out directly to chapugalle@pcsdf.org or chaihapugalle@gmail.com.";
         }
     }
 }
 ?>
 
 <!-- Contact Hero -->
-<section class="hero-section" style="padding: 2.8rem 0;">
-    <div class="container">
-        <div class="hero-badge-wrap">
-            <span class="badge badge-primary">Get in Touch</span>
-            <span class="badge badge-gold">Start a Project</span>
-        </div>
-        <h1 class="display-title" style="margin-bottom: 0.85rem;">
-            Ready to Bring Your Vision to Life?
+<section class="section" style="background: var(--bg-surface); border-bottom: 2px solid var(--primary); padding: 3.5rem 0 2.5rem 0;">
+    <div class="container text-center">
+        <span class="badge badge-primary" style="margin-bottom: 0.75rem;">Get In Touch</span>
+        <h1 class="display-title" style="margin-bottom: 0.75rem;">
+            Begin Your Extraordinary Journey
         </h1>
-        <p class="hero-lead container-narrow" style="margin: 0 0 1.25rem 0;">
-            Let us discuss your project, institutional collaboration, or policy transition, and explore how we can help you achieve your goals across all systems and generations.
+        <p class="section-subtitle" style="max-width: 740px; margin-bottom: 0;">
+            We would love to hear from you. Be part of a growing global network advancing peace-led, climate-friendly, regenerative solutions for present and future generations.
         </p>
     </div>
 </section>
 
-<!-- Contact Form & Headquarters Grid -->
+<!-- Contact Form & Institutional Info Grid -->
 <section class="section">
     <div class="container">
         <div class="contact-grid">
             <!-- Contact Details -->
             <div>
-                <div class="contact-info-card">
-                    <span class="badge badge-primary" style="margin-bottom: 0.75rem; font-size: 0.68rem;">Global Secretariat</span>
-                    <h2 style="font-size: 1.35rem; color: var(--text-main); margin-bottom: 1.25rem;">
-                        The Peace-Led Climate-Friendly Sustainable Development Forum
+                <div class="contact-info-card" style="border-top: 3px solid var(--primary);">
+                    <span class="badge badge-primary" style="margin-bottom: 0.75rem; font-size: 0.68rem;">Global Platform</span>
+                    <h2 style="font-size: 1.35rem; color: var(--text-main); margin-bottom: 0.75rem;">
+                        The Peace-Led Climate-Friendly Sustainable Development Forum (PCSDF)
                     </h2>
+                    <p style="font-size: 0.8rem; color: var(--primary); font-weight: 700; margin-bottom: 1.25rem;">
+                        Registered in Singapore as a Company Limited by Guarantee (Incorporated 24 December 2021)
+                    </p>
 
                     <!-- Address -->
                     <div class="contact-item">
-                        <div class="contact-icon">&#128205;</div>
+                        <div class="contact-icon" style="color: var(--primary); font-size: 1.1rem;">&#128205;</div>
                         <div class="contact-item-content">
-                            <h4>Secretariat Address</h4>
-                            <p>
-                                60 Paya Lebar Road<br>
-                                #06-28 Paya Lebar Square<br>
-                                Singapore 409051
+                            <h4>Headquarters &amp; Registered Location</h4>
+                            <p style="color: var(--text-body);">
+                                Keong Saik Road<br>
+                                Chinatown, Singapore
                             </p>
                         </div>
                     </div>
 
                     <!-- Email -->
                     <div class="contact-item">
-                        <div class="contact-icon">&#9993;</div>
+                        <div class="contact-icon" style="color: var(--primary); font-size: 1.1rem;">&#9993;</div>
                         <div class="contact-item-content">
-                            <h4>Direct Email</h4>
+                            <h4>Direct Email Inquiries</h4>
                             <p>
-                                <a href="mailto:<?= htmlspecialchars(CONTACT_EMAIL) ?>">
-                                    <?= htmlspecialchars(CONTACT_EMAIL) ?>
+                                <a href="mailto:chapugalle@pcsdf.org" style="color: var(--primary); font-weight: 600; display: block;">
+                                    chapugalle@pcsdf.org
+                                </a>
+                                <a href="mailto:chaihapugalle@gmail.com" style="color: var(--text-body); font-size: 0.8rem; display: block;">
+                                    chaihapugalle@gmail.com
+                                </a>
+                                <a href="mailto:tpcsdf@gmail.com" style="color: var(--text-muted); font-size: 0.78rem; display: block;">
+                                    tpcsdf@gmail.com
                                 </a>
                             </p>
                         </div>
                     </div>
 
-                    <!-- WhatsApp -->
+                    <!-- WhatsApp & Direct Calling -->
                     <div class="contact-item">
-                        <div class="contact-icon">&#128222;</div>
+                        <div class="contact-icon" style="color: var(--primary); font-size: 1.1rem;">&#128222;</div>
                         <div class="contact-item-content">
-                            <h4>WhatsApp Call &amp; Messaging</h4>
+                            <h4>Phone &amp; WhatsApp</h4>
                             <p>
-                                <a href="https://wa.me/6580701667" target="_blank" style="font-weight: 700; color: var(--emerald);">
-                                    <?= htmlspecialchars(CONTACT_PHONE) ?>
+                                <a href="https://wa.me/6597240021" target="_blank" style="font-weight: 700; color: #15803D; font-size: 0.95rem;">
+                                    +65 9724 0021
                                 </a>
-                                <span style="display: block; font-size: 0.75rem; color: var(--text-muted);">
-                                    (<?= htmlspecialchars(CONTACT_WHATSAPP_NOTE) ?>)
+                                <span style="display: block; font-size: 0.75rem; color: var(--text-muted); margin-top: 2px;">
+                                    Direct calls and WhatsApp communication
                                 </span>
                             </p>
                         </div>
@@ -108,27 +113,32 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                     <!-- Social Channels -->
                     <div style="border-top: 1px solid var(--border-subtle); padding-top: 1.25rem; margin-top: 1.25rem;">
-                        <h4 style="font-size: 0.85rem; margin-bottom: 0.65rem;">Global Channels &amp; Network</h4>
+                        <h4 style="font-size: 0.85rem; margin-bottom: 0.65rem;">Global Leadership Channels</h4>
                         <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
                             <a href="<?= URL_FACEBOOK ?>" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
                                 Facebook Network
                             </a>
-                            <a href="<?= URL_LINKEDIN ?>" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                            <a href="https://www.linkedin.com/in/chaitri-hapugalle" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
                                 LinkedIn
                             </a>
                         </div>
+                    </div>
+
+                    <div style="margin-top: 1.5rem; padding: 1rem; background: var(--bg-surface-elevated); border-left: 3px solid var(--primary); font-size: 0.8rem; line-height: 1.5; color: var(--text-body);">
+                        <strong>Together, we can help shape a more peaceful, sustainable, and resilient world.</strong><br>
+                        <span style="color: var(--text-muted); font-size: 0.75rem;">Apply Now &bull; Join the Movement &bull; Be Part of the Change</span>
                     </div>
                 </div>
             </div>
 
             <!-- Inquiry Form -->
             <div>
-                <div class="form-card">
+                <div class="form-card" style="border-top: 3px solid var(--primary);">
                     <h3 style="font-size: 1.35rem; margin-bottom: 0.35rem; color: var(--text-main);">
-                        Start a Project or Inquiry
+                        Submit Your Application or Inquiry
                     </h3>
                     <p style="font-size: 0.825rem; color: var(--text-muted); margin-bottom: 1.25rem;">
-                        Submissions are delivered directly to the Secretariat Board.
+                        We welcome individuals, institutions, youth, professionals, changemakers, philanthropists, and partners from all backgrounds.
                     </p>
 
                     <?php if ($success_msg): ?>
@@ -145,44 +155,45 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                     <form action="<?= BASE_URL ?>/contact.php" method="POST">
                         <div class="form-group">
-                            <label class="form-label" for="full_name">Full Name *</label>
+                            <label class="form-label" for="full_name">Your Name *</label>
                             <input type="text" id="full_name" name="full_name" class="form-control" required placeholder="e.g. Dr. Eleanor Vance" value="<?= isset($_POST['full_name']) ? htmlspecialchars($_POST['full_name']) : '' ?>">
                         </div>
 
                         <div class="grid-form-2col">
                             <div class="form-group">
-                                <label class="form-label" for="email">Official Email *</label>
+                                <label class="form-label" for="email">Email Address *</label>
                                 <input type="email" id="email" name="email" class="form-control" required placeholder="name@institution.org" value="<?= isset($_POST['email']) ? htmlspecialchars($_POST['email']) : '' ?>">
                             </div>
                             <div class="form-group">
-                                <label class="form-label" for="organization">Organization / Government</label>
-                                <input type="text" id="organization" name="organization" class="form-control" placeholder="Ministry / NGO / Fund" value="<?= isset($_POST['organization']) ? htmlspecialchars($_POST['organization']) : '' ?>">
+                                <label class="form-label" for="organization">Organization / Institution</label>
+                                <input type="text" id="organization" name="organization" class="form-control" placeholder="Government / NGO / Sovereign Fund" value="<?= isset($_POST['organization']) ? htmlspecialchars($_POST['organization']) : '' ?>">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="category">Collaboration Category</label>
+                            <label class="form-label" for="category">Collaboration Track</label>
                             <select id="category" name="category" class="form-control">
-                                <option value="PFICF-RSSDF Policy Adoption">PFICF-RSSDF Policy Adoption &amp; Advisory</option>
+                                <option value="Member">Member – Join our community and contribute ideas, expertise, and collaboration</option>
+                                <option value="Volunteer">Volunteer – Support events, research, outreach, communications, and operations</option>
+                                <option value="Sponsor">Sponsor – Help power impactful programs, partnerships, and global initiatives</option>
                                 <option value="Entity Partner Affiliation">Entity Partner &amp; Focal Point Affiliation</option>
-                                <option value="Regenerative Finance & Green Bonds">Regenerative Finance &amp; Green Bonds</option>
-                                <option value="Academic & Scientific Research">Academic &amp; Scientific Research</option>
+                                <option value="PFICF-RSSDF Policy Advisory">PFICF-RSSDF Policy Adoption &amp; Advisory</option>
                                 <option value="General Inquiry" selected>General Inquiry</option>
                             </select>
                         </div>
 
                         <div class="form-group">
                             <label class="form-label" for="subject">Subject *</label>
-                            <input type="text" id="subject" name="subject" class="form-control" required placeholder="Brief outline of your initiative" value="<?= isset($_POST['subject']) ? htmlspecialchars($_POST['subject']) : '' ?>">
+                            <input type="text" id="subject" name="subject" class="form-control" required placeholder="e.g. Collaboration Proposal on Regenerative Governance" value="<?= isset($_POST['subject']) ? htmlspecialchars($_POST['subject']) : '' ?>">
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="message">Detailed Message / Scope of Work *</label>
-                            <textarea id="message" name="message" class="form-control" required placeholder="Describe your proposal, objectives, and how we can collaborate..."><?= isset($_POST['message']) ? htmlspecialchars($_POST['message']) : '' ?></textarea>
+                            <label class="form-label" for="message">Message / Scope of Collaboration *</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required placeholder="Please provide brief background and the collaborative aims..."><?= isset($_POST['message']) ? htmlspecialchars($_POST['message']) : '' ?></textarea>
                         </div>
 
-                        <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.75rem;">
-                            Submit Project Inquiry &rarr;
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            Submit Inquiry &rarr;
                         </button>
                     </form>
                 </div>

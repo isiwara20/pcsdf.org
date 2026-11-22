@@ -140,6 +140,11 @@ function getPeaceAccords(): array {
     return $DEFAULT_ACCORDS;
 }
 
+function getAdvisors(): array {
+    global $DEFAULT_ADVISORS;
+    return $DEFAULT_ADVISORS ?? [];
+}
+
 function getPoems(): array {
     $pdo = Database::connect();
     if ($pdo) {
@@ -155,10 +160,119 @@ function getPoems(): array {
     }
     return [
         [
+            'title' => 'Anthem of the Poor',
+            'author' => 'Chaitri N. Hapugalle (Chai) & ChatGPT',
+            'theme' => 'Human Dignity, Voice & Global Justice',
+            'dedication' => 'For the dreamers, the doers, and the gentle guardians of the Earth—for those who plant even when the soil is tired, who clean rivers others forget, and who believe that love can be policy. For every child who looks at the sky and wonders how blue it will be tomorrow, and every heart that still dares to keep the world green. This is for you—for choosing compassion as the true currency of development, and care as the architecture of progress.',
+            'content' => "We are the forgotten millions,
+the invisible threads that bind the world,
+the workers of fields, mines, and markets,
+the mothers who stretch a single meal across three nights,
+the fathers who labor without rest yet sleep in hunger.
+
+We are the poor.
+But we are not weak.
+We are the backbone of nations,
+the builders of cities,
+the keepers of rivers and forests,
+the guardians of tomorrow’s children.
+
+Yet—
+we are made voiceless.
+Do you hear our voices?
+Do you hear the cry of the child denied school,
+the woman walking miles for water,
+the farmer crushed by debt and drought?
+
+Do you hear us?
+Or are we drowned out by the noise of power and plenty?
+Invisible we may seem,
+but we are everywhere.
+Exiled from comfort,
+but not from hope.
+Silenced by injustice,
+yet singing still.
+
+And we sing not for pity,
+but for justice.
+We demand not charity,
+but dignity.
+We seek not favor,
+but fairness.
+
+To future generations we say:
+Do not inherit silence.
+Do not repeat the sins of greed.
+Carry forward an anthem where none are left behind,
+where wealth does not measure worth,
+where peace is not a privilege,
+but the right of all.
+
+For when the poor stand tall,
+humanity stands taller.
+When the excluded are included,
+the earth breathes easier.
+And when the voiceless are heard,
+the anthem of the poor
+becomes the anthem of the world."
+        ],
+        [
+            'title' => 'How Green and Blue Do We Really Want Our Love to Be?',
+            'author' => 'Chaitri (Chai) Hapugalle in creative collaboration with ChatGPT',
+            'theme' => 'Ecology, Tenderness & Practical Stewardship',
+            'dedication' => 'Dedicated to all life systems, planetary boundaries, and the quiet guardians of nature.',
+            'content' => "How green do we really want our love to be?
+Just enough to paint a promise—
+or deep enough to let forests breathe again?
+
+How blue do we dare our hearts to dream?
+Just the sky of words—
+or the ocean that forgives our storms?
+
+We speak of sustainability as if it were science,
+but it is really tenderness made practical—
+the art of remembering
+that every seed,
+every drop,
+every child’s breath
+belongs to tomorrow too.
+
+Development, they say,
+is growth—
+but growth without grace is hunger in disguise.
+What is progress if it forgets the river’s name?
+What is success if it silences the wind?
+
+Love is not measured in wealth,
+but in how gently we return what we take.
+To sustain is to stay faithful
+to the quiet pact of life—
+the tree’s gift of shade,
+the coral’s fragile song,
+the soil’s humble strength beneath our feet.
+
+Let our love be green enough
+to heal what was broken.
+Let our love be blue enough
+to hold all life as one."
+        ],
+        [
             'title' => 'Who Speaks For Tomorrow?',
             'author' => 'Chaitri (Chai) N. Hapugalle',
-            'theme' => 'Intergenerational Planetary Guardianship',
-            'content' => "If future generations, nature, and the global commons\nCannot speak for themselves, who will speak for them?\n\nExploring life’s intricate tapestry,\nEach choice reveals regenerative pathways toward the exceptional—\nCalling for innovation to imagine what does not yet exist,\nInquisitiveness to keep learning beyond the familiar,\nAnd bravery to step forward despite uncertainty.\n\nThrough this spirit, challenges become teachers,\nHorizons expand, and the journey itself becomes\nA deeply meaningful and richly satisfying voyage."
+            'theme' => 'Year of the Horse & Intergenerational Guardianship',
+            'dedication' => 'Year of the Horse — Inspiring Peace-Led, Faith- and Indigenous-Inspired, Climate-Friendly Regeneration Across All Systems, All Life and All Generations.',
+            'content' => "If future generations, nature, and the global commons
+Cannot speak for themselves, who will speak for them?
+
+Exploring life’s intricate tapestry,
+Each choice reveals regenerative pathways toward the exceptional—
+Calling for innovation to imagine what does not yet exist,
+Inquisitiveness to keep learning beyond the familiar,
+And bravery to step forward despite uncertainty.
+
+Through this spirit, challenges become teachers,
+Horizons expand, and the journey itself becomes
+A deeply meaningful and richly satisfying voyage."
         ]
     ];
 }
