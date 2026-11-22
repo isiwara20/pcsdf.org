@@ -592,76 +592,67 @@ h6 {
   border: 1px solid var(--primary);
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
   background: var(--primary-hover);
   border-color: var(--primary-hover);
+  color: #FFFFFF !important;
   transform: translateY(-1px);
 }
 
+/* Outline Button (Never turns white-on-white on click, focus, or hover) */
 .btn-outline {
   background: transparent;
-  border: 1px solid var(--text-main);
-  color: var(--text-main);
-}
-
-.btn-outline:hover {
-  background: var(--text-main);
-  color: var(--bg-canvas) !important;
-  transform: translateY(-1px);
-}
-
-.btn-outline-red {
-  background: transparent;
-  border: 1px solid var(--primary);
-  color: var(--primary);
-}
-
-.btn-outline-red:hover {
-  background: var(--primary);
-  color: #FFFFFF !important;
-}
-
-.btn-sm {
-  padding: 0.35rem 0.8rem;
-  min-height: 32px;
-  font-size: 0.775rem;
-  border-radius: 2px !important;
-}
-  color: #FFFFFF !important;
-  box-shadow: 0 4px 15px var(--primary-glow);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-}
-
-.btn-primary:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 6px 25px var(--primary-glow);
-  opacity: 0.95;
-}
-
-.btn-outline {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--border-card);
-  color: var(--text-main);
-  backdrop-filter: blur(8px);
+  border: 1.5px solid var(--text-main);
+  color: var(--text-main) !important;
 }
 
 [data-theme="light"] .btn-outline {
   background: #FFFFFF;
-  border-color: var(--border-subtle);
-  color: var(--text-main);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1.5px solid #000000;
+  color: #000000 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
-.btn-outline:hover {
-  border-color: var(--primary);
-  color: var(--primary);
+[data-theme="dark"] .btn-outline {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid #D1D5DB;
+  color: #FFFFFF !important;
+}
+
+/* On Hover, Focus, or Click (Active): Turns solid Red with crisp White text */
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active {
+  background: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: #FFFFFF !important;
+  transform: translateY(-1px);
+  text-decoration: none !important;
+}
+
+/* Red Outline Variant */
+.btn-outline-red {
+  background: transparent;
+  border: 1.5px solid var(--primary);
+  color: var(--primary) !important;
+}
+
+.btn-outline-red:hover,
+.btn-outline-red:focus,
+.btn-outline-red:active {
+  background: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: #FFFFFF !important;
   transform: translateY(-1px);
 }
 
 .btn-sm {
   padding: 0.35rem 0.85rem;
-  min-height: 34px;
+  min-height: 32px;
   font-size: 0.775rem;
+  border-radius: 2px !important;
 }
 
 .mobile-controls {
@@ -1947,6 +1938,7 @@ textarea.form-control {
 
 /* Small Screens & Apple Phones (iPhone SE, Mini, etc.) */
 @media (max-width: 600px) {
+
   .grid-form-2col,
   .grid-2col-sm {
     grid-template-columns: 1fr;
