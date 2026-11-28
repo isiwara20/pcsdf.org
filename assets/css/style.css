@@ -467,17 +467,21 @@ h6 {
 
 .brand-acronym {
   font-family: var(--font-display);
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   font-weight: 800;
-  color: var(--text-main);
+  background: #B91C1C !important;
+  color: #FFFFFF !important;
+  padding: 2px 8px;
+  border-radius: 2px;
+  display: inline-block;
   letter-spacing: 0.04em;
-  line-height: 1.1;
+  line-height: 1.15;
 }
 
 .brand-subline {
   font-size: 0.725rem;
   font-weight: 700;
-  color: var(--primary);
+  color: #B91C1C !important;
   letter-spacing: 0.01em;
   white-space: nowrap;
 }
@@ -1551,6 +1555,15 @@ textarea.form-control {
   font-weight: 400;
 }
 
+/* Shaded Box (Matching Quote Highlight Styling in Warm/Red Tint) */
+.shaded-box {
+  background: #FEF2F2 !important;
+  border: 1px solid #FEE2E2 !important;
+  border-left: 4px solid #B91C1C !important;
+  padding: 1.75rem !important;
+  box-shadow: 0 1px 4px rgba(185, 28, 28, 0.04);
+}
+
 .supporting-fact-text strong {
   color: #000000 !important;
   font-weight: 700;
@@ -1922,9 +1935,10 @@ textarea.form-control {
   }
 
   .brand-acronym {
-    font-size: 1.15rem !important;
-    line-height: 1 !important;
+    font-size: 1.05rem !important;
+    line-height: 1.1 !important;
     font-weight: 800;
+    padding: 2px 6px !important;
   }
 
   /* Critical fix: hide long slogan on phones so controls never push out */

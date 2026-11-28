@@ -17,8 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Set initial active state based on document attribute
-    const initialTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+    // Set initial active state based on document attribute (Default: light)
+    const initialTheme = document.documentElement.getAttribute('data-theme') || 'light';
     updateActiveThemeButtons(initialTheme);
 
     // Click handler for theme buttons

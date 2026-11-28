@@ -11,8 +11,8 @@ require_once __DIR__ . '/config.php';
                         <img src="<?= BASE_URL ?>/assets/images/pcsdf-logo.jpg" alt="PCSDF Dove Logo" style="height: 100%; width: 100%; object-fit: contain; border-radius: 0;">
                     </div>
                     <div>
-                        <div style="font-family: var(--font-display); font-size: 1.15rem; font-weight: 800; color: #000000; letter-spacing: 0.04em;">PC-SDF</div>
-                        <div style="font-size: 0.72rem; color: #B91C1C; font-weight: 700;">Peace-Led Sustainable Development</div>
+                        <div style="font-family: var(--font-display); font-size: 1.15rem; font-weight: 800; background: #B91C1C; color: #FFFFFF; padding: 2px 8px; border-radius: 2px; letter-spacing: 0.04em; display: inline-block;">PC-SDF</div>
+                        <div style="font-size: 0.72rem; color: #B91C1C; font-weight: 700; margin-top: 3px;">Peace-Led Sustainable Development</div>
                     </div>
                 </div>
                 <p class="footer-brand-desc">
@@ -46,8 +46,7 @@ require_once __DIR__ . '/config.php';
                 <h4 class="footer-heading">Governance</h4>
                 <ul class="footer-links">
                     <li><a href="<?= BASE_URL ?>/about.php#board">Board of Directors</a></li>
-                    <li><a href="<?= BASE_URL ?>/about.php#patrons">Distinguished Patrons</a></li>
-                    <li><a href="<?= BASE_URL ?>/about.php#ayoub">Jean Ayoub — Senior Advisor</a></li>
+                    <li><a href="<?= BASE_URL ?>/about.php#patrons">Distinguished Patrons and Senior Advisors</a></li>
                     <li><a href="<?= BASE_URL ?>/about.php#partners">Entity Partners &amp; Focal Points</a></li>
                     <li><a href="<?= BASE_URL ?>/about.php#advisors">Technical Advisors</a></li>
                 </ul>

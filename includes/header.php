@@ -140,21 +140,4 @@ if (!isset($page_title)) {
             <a href="<?= BASE_URL ?>/contact.php" class="btn btn-primary" style="width: 100%;">Inquire / Start a Project</a>
         </div>
     </div>
-        
-        <div class="mobile-theme-row">
-            <span style="font-size: 0.8rem; font-weight: 600; color: var(--text-muted);">Theme Mode:</span>
-            <div class="theme-segmented-switch">
-                <button type="button" class="theme-segment-btn" data-theme-val="light">
-                    <span>&#9728; Light</span>
-                </button>
-                <button type="button" class="theme-segment-btn" data-theme-val="dark">
-                    <span>&#9790; Dark</span>
-                </button>
-            </div>
-        </div>
-
-        <div style="padding-top: 0.75rem;">
-            <a href="<?= BASE_URL ?>/contact.php" class="btn btn-primary" style="width: 100%;">Inquire / Start a Project</a>
-        </div>
-    </div>
 </div>
